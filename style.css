@@ -1,1 +1,43 @@
+<<<<<<< HEAD
 < !DOCTYPE html > <html lang="" > <head > <meta charset="utf-8" > <meta name="viewport"content="width=device-width, initial-scale=1.0" > <title > </title > </head > <body > </body > </html >
+=======
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 25.6px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #525252;
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 25.6px;
+    text-transform: uppercase;
+    color: #525252;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 12.8px;
+    text-transform: uppercase;
+    color: #525252;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    text-transform: none;
+    color: #525252;
+}
+
+a {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #5c5c5c;
+}
+
+a:hover {
+    color: black;
+}
+>>>>>>> origin/master
