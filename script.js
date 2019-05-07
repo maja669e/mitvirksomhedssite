@@ -2,9 +2,12 @@ window.addEventListener("load", sidenVises);
 
 function sidenVises() {
     console.log("sidenVises");
-    document.querySelector("#parfume").classList.add("move");
-    document.querySelector("#parfume").addEventListener("animationend", imageAppear);
 
+    if (document.getElementById("parfume")) {
+        document.querySelector("#parfume").classList.add("move");
+
+        document.querySelector("#parfume").addEventListener("animationend", imageAppear);
+    }
     document.querySelector("#menuknap").addEventListener("click", toggleMenu);
 }
 

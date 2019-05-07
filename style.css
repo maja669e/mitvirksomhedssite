@@ -69,8 +69,12 @@ a:hover {
     /*    transform: scale(0);*/
     transform: translateX(-100%);
     opacity: 0;
+
 }
 
+
+/*
+=======
 #about #story_wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -107,9 +111,11 @@ a:hover {
     outline: none;
 }
 
+>>>>>>> origin/master
 .hidden_menu {
     visibility: hidden;
 }
+*/
 
 #menuknap {
     display: inline-block;
@@ -211,6 +217,39 @@ a:hover {
     width: 100%;
 }
 
+
+@media only screen and (max-width: 700px) {
+
+    #about #picture,
+    #about #text {
+        padding:
+            1vw;
+    }
+
+    #about {
+        margin: 1vw;
+    }
+
+    #about #zarkovideo {
+        width: 400px;
+        height: 225px;
+    }
+
+    #about #video {
+        margin: 0;
+    }
+
+    #about #img {
+        width: 397.4px;
+        height: 530px;
+    }
+}
+
+#showcase img {
+    width: 100%;
+}
+
+
 #splash {
     width: 100vw;
     height: 100vh;
@@ -222,25 +261,18 @@ a:hover {
 
 #box {
     height: 30vw;
-    width: 20vw;
-    background-color: white;
+    width: 30vw;
+    background-color: rgba(255, 255, 255, 0.25);
     justify-content: center;
     top: 23vw;
-    left: 14.5vw;
-    position: absolute;
+    left: 34.5vw;
+    position: relative;
     z-index: 3;
+    border: solid #ba8548 2px;
+    overflow: hidden;
+
 }
 
-#box1 {
-    height: 30vw;
-    width: 20vw;
-    background-color: white;
-    justify-content: center;
-    top: 23vw;
-    left: 66vw;
-    position: absolute;
-    z-index: 3;
-}
 
 #showcase .sectionwrapper {
     display: flex;
@@ -297,217 +329,267 @@ a:hover {
     width: 25vw;
     height: 14vw;
     left: 70vw;
-    top: 20vw;
-    margin: 10px;
-}
 
-#col1 {
-    display: flex;
-    flex-direction: row-reverse;
-    flex-grow: 2;
-    flex-basis: 300px;
-    flex-direction: column;
-}
+    =======#splash {
+        width: 100vw;
+        height: 100vh;
+        max-width: none;
+        background-image: url(showcase_image/splash_ny.png);
+        background-size: cover;
+        background-position: 25% 0%;
+    }
 
-header nav a:link {
-    color: #ce9865;
-}
+    #box {
+        height: 30vw;
+        width: 20vw;
+        background-color: white;
+        justify-content: center;
+        top: 23vw;
+        left: 14.5vw;
+        position: absolute;
+        z-index: 3;
+    }
 
-/* visited link */
-#splash_menu header nav a:visited {
-    color: #ffffff;
-}
+    #box1 {
+        height: 30vw;
+        width: 20vw;
+        background-color: white;
+        justify-content: center;
+        top: 23vw;
+        left: 66vw;
+        position: absolute;
+        z-index: 3;
+    }
 
-/* mouse over link */
-#splash_menu header nav a:hover {
-    color: #070505;
-}
+    #showcase .sectionwrapper {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 100px;
+        margin-right: 100px;
+        padding: 20px;
+    }
 
-/* selected link */
-#splash_menu header nav a:active {
-    color: #d09864;
-}
+    #cols {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
-#splash_menu header {
-    position: absolute;
-    width: 100%;
-}
+    .colaward {
+        display: flex;
+        flex-direction: row;
+        flex-grow: 2;
+        flex-basis: 200px;
+        width: 30vw;
+    }
 
-#splash_menu header nav {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    margin: 1rem 1.5rem;
-}
+    #showcase .col {
+        display: flex;
+        flex-direction: row;
+        flex-grow: 2;
+        flex-basis: 500px;
+        width: 40vw;
+    }
 
-#splash_menu header nav a {
-    font-size: 1.2rem;
-    font-family: 'Montserrat', sans-serif;
-    margin: 0.1rem 0;
-    padding: 0.1rem 0;
-    text-decoration: none;
-}
+    #gazelle {
+        background-image: url(showcase_image/gazelle.png);
+        background-size: 100%;
+        width: 25vw;
+        height: 14vw;
+        left: 29vw;
+        top: 20vw;
+        margin: 10px;
+    }
 
-#splash_menu header nav {
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 17rem;
-}
+    #beauty {
+        background-image: url(showcase_image/beaty.png);
+        background-size: 100%;
+        width: 25vw;
+        height: 14vw;
+        left: 29vw;
+        top: 20vw;
+        margin: 10px;
+    }
 
-#splash_menu header nav a {
-    font-size: 1.1rem;
-    margin: 0 0.2rem;
-    padding: 0 1rem 0 0;
-    border-right: 0.1rem solid white;
-}
+    #show {
+        background-image: url(showcase_image/zarko.png);
+        background-size: 100%;
+        width: 25vw;
+        height: 14vw;
+        left: 70vw;
+        top: 20vw;
+        margin: 10px;
+    }
 
-#splash_menu header nav a:last-child {
-    border-right: none;
-    padding: 0;
-}
+    #col1 {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-grow: 2;
+        flex-basis: 300px;
+        flex-direction: column;
+    }
 
-#facebook {
-    background-image: url(showcase_image/facebook-logo.png);
-    background-size: 100%;
-    width: 5vw;
-    height: 5vw;
-    left: 29vw;
-    top: 20vw;
-    margin: 10px;
-}
+    header nav a:link {
+        color: #ce9865;
+    }
 
+<<<<<<< HEAD
 #image_insta {
     background-size: 100%;
     left: 2vw;
     top: 50vw;
     margin: 10px;
 }
+=======
+    /* visited link */
+    #splash_menu header nav a:visited {
+        color: #ffffff;
+    }
+>>>>>>> origin/master
 
-#work {
-    background-image: url(showcase_image/work.jpg);
-    background-size: 100%;
-    width: 25vw;
-    height: 14vw;
-    left: 10vw;
-    top: 20vw;
-    margin: 10px;
-}
-
-#showcase .bottom {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#showcase .top {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row-reverse;
-}
-
-#image_footer {
-    flex-direction: row;
-}
-
-#facebook a:hover {
-    color: #c66385;
-}
-
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: red;
-    color: white;
-    text-align: center;
-}
-
-.image_hidden {
-    visibility: hidden;
-}
-
-#bluecloud_container {
-    position: absolute;
-    width: 25vw;
-    height: 22vw;
-    top: 32vw;
-    left: 42vw;
-    background-image: url(showcase_image/pinkmolecule.png);
-    z-index: 2;
-}
-
-
-
-#parfume {
-    position: absolute;
-    width: 25vw;
-    height: 22vw;
-    top: 32vw;
-    left: 42vw;
-    background-image: url(showcase_image/molecule.png);
-    z-index: 2;
-}
-
-
-.move {
-    animation-name: move_kf;
-    animation-duration: 3s;
-    animation-iteration-count: 1;
-    animation-timing-function: linear;
-    animation-fill-mode: both;
-}
-
-@keyframes move_kf {
-    0% {
-        left: 20vw;
+    /* mouse over link */
+    #splash_menu header nav a:hover {
+        color: #070505;
     }
 
-    100% {
-        left: 64vw;
+    /* selected link */
+    #splash_menu header nav a:active {
+        color: #d09864;
     }
-}
 
-#products .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 100px;
-    margin-right: 100px;
-    padding: 20px;
+    #splash_menu header {
+        position: absolute;
+        width: 100%;
+    }
 
-    border: #ba8548 2rem;
+    #splash_menu header nav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin: 1rem 1.5rem;
+    }
 
-}
+    #splash_menu header nav a {
+        font-size: 1.2rem;
+        font-family: 'Montserrat', sans-serif;
+        margin: 0.1rem 0;
+        padding: 0.1rem 0;
+        text-decoration: none;
+    }
 
-#products .col {
-    flex-grow: 1;
-    flex-basis: 300px;
-    display: flex;
-    flex-direction: column;
-}
+    #splash_menu header nav {
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 17rem;
+    }
 
-#products img {
-    max-height: 250px;
-    max-width: 250px;
-    margin: 10px;
-    padding: 15px;
-    cursor: pointer;
-}
+    #splash_menu header nav a {
+        font-size: 1.1rem;
+        margin: 0 0.2rem;
+        padding: 0 1rem 0 0;
+        border-right: 0.1rem solid white;
+    }
 
-#products img:hover {
-    opacity: 0.6;
-}
+    #splash_menu header nav a:last-child {
+        border-right: none;
+        padding: 0;
+    }
 
-#info_skaerm1 {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: 2;
-    background-image: url(info_bokse/pink.svg);
-    height: 30vw;
-    width: 28vw;
-    background-color: white;
-}
+    #facebook {
+        background-image: url(showcase_image/facebook-logo.png);
+        background-size: 100%;
+        width: 5vw;
+        height: 5vw;
+        left: 29vw;
+        > > > > > > > origin/master top: 20vw;
+        margin: 10px;
+    }
 
+    <<<<<<< HEAD #col1 {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-grow: 2;
+        flex-basis: 300px;
+        flex-direction: column;
+    }
+
+    <<<<<<< HEAD header nav a:link {
+        color: #ce9865;
+    }
+
+    /* visited link */
+    #splash_menu header nav a:visited {
+        color: #ce9865;
+    }
+
+    /* mouse over link */
+    #splash_menu header nav a:hover {
+        color: #070505;
+    }
+
+    /* selected link */
+    #splash_menu header nav a:active {
+        color: #d09864;
+    }
+
+    #splash_menu header {
+        position: absolute;
+        width: 100%;
+    }
+
+    #splash_menu header nav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin: 1rem 1.5rem;
+    }
+
+    #splash_menu header nav a {
+        font-size: 1.2rem;
+        font-family: 'Montserrat', sans-serif;
+        margin: 0.1rem 0;
+        padding: 0.1rem 0;
+        text-decoration: none;
+    }
+
+    #splash_menu header nav {
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 17rem;
+    }
+
+    #splash_menu header nav a {
+        font-size: 1.1rem;
+        margin: 0 0.2rem;
+        padding: 0 1rem 0 0;
+        border-right: 0.1rem solid white;
+    }
+
+    #splash_menu header nav a:last-child {
+        border-right: none;
+        padding: 0;
+    }
+
+    #facebook {
+        background-image: url(showcase_image/facebook-logo.png);
+        background-size: 100%;
+        width: 5vw;
+        height: 5vw;
+        left: 29vw;
+        top: 20vw;
+        margin: 10px;
+    }
+
+    #insta {
+        background-image: url(showcase_image/insta.png);
+        background-size: 100%;
+        width: 5vw;
+        height: 5vw;
+        left: 10vw;
+        top: 20vw;
+        margin: 10px;
+    }
+
+<<<<<<< HEAD
 #kryds1 {
     position: absolute;
     z-index: 2;
@@ -526,3 +608,249 @@ header nav a:link {
     color: white;
     text-align: center;
 }
+=======
+    #work {
+        background-image: url(showcase_image/work.jpg);
+        background-size: 100%;
+        width: 25vw;
+        height: 14vw;
+        left: 10vw;
+        top: 20vw;
+        margin: 10px;
+    }
+
+    #showcase .bottom {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #showcase .top {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+    }
+
+    #image_footer {
+        flex-direction: row;
+    }
+
+    #facebook a:hover {
+        color: #c66385;
+    }
+
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: red;
+        color: white;
+        text-align: center;
+    }
+
+    .image_hidden {
+        visibility: hidden;
+    }
+
+    #bluecloud_container {
+        position: absolute;
+        width: 25vw;
+        height: 22vw;
+        background-image: url(showcase_image/pinkmolecule.png);
+        opacity: 1;
+        z-index: 4;
+    }
+
+    =======#insta {
+        background-image: url(showcase_image/insta.png);
+        background-size: 100%;
+        width: 5vw;
+        height: 5vw;
+        left: 10vw;
+        top: 20vw;
+        margin: 10px;
+    }
+
+    #work {
+        background-image: url(showcase_image/work.jpg);
+        background-size: 100%;
+        width: 25vw;
+        height: 14vw;
+        left: 10vw;
+        top: 20vw;
+        margin: 10px;
+    }
+
+    #showcase .bottom {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #showcase .top {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+    }
+
+    #image_footer {
+        flex-direction: row;
+    }
+
+    #facebook a:hover {
+        color: #c66385;
+    }
+
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: red;
+        color: white;
+        text-align: center;
+    }
+
+    .image_hidden {
+        visibility: hidden;
+    }
+
+    #bluecloud_container {
+        position: absolute;
+        width: 25vw;
+        height: 22vw;
+        top: 32vw;
+        left: 42vw;
+        background-image: url(showcase_image/pinkmolecule.png);
+        z-index: 2;
+    }
+
+
+
+    #parfume {
+        position: absolute;
+        width: 25vw;
+        height: 22vw;
+        top: 32vw;
+        left: 42vw;
+        background-image: url(showcase_image/molecule.png);
+        z-index: 2;
+    }
+
+
+    .move {
+        animation-name: move_kf;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-fill-mode: both;
+    }
+
+    @keyframes move_kf {
+        0% {
+            left: 20vw;
+        }
+
+        100% {
+            left: 64vw;
+        }
+    }
+
+    #products .sectionwrapper {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 100px;
+        margin-right: 100px;
+        padding: 20px;
+
+        border: #ba8548 2rem;
+
+    }
+
+    > > > > > > > origin/master #products .col {
+        flex-grow: 1;
+        flex-basis: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    <<<<<<< HEAD #parfume {
+        position: absolute;
+        width: 25vw;
+        height: 22vw;
+        background-image: url(showcase_image/molecule.png);
+        opacity: 1;
+        z-index: 4;
+    }
+
+
+    .move {
+        animation-name: move_kf;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-fill-mode: both;
+    }
+
+    @keyframes move_kf {
+        0% {
+            left: -25vw;
+        }
+
+        100% {
+            left: 30vw;
+        }
+    }
+
+    #products .sectionwrapper {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 100px;
+        margin-right: 100px;
+        padding: 20px;
+
+    }
+
+    #products .col {
+        flex-grow: 1;
+        flex-basis: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #products img {
+        max-height: 300px;
+        max-width: 300px;
+
+        =======#products img {
+            max-height: 250px;
+            max-width: 250px;
+            margin: 10px;
+            padding: 15px;
+            cursor: pointer;
+        }
+
+        #products img:hover {
+            opacity: 0.6;
+        }
+
+        #info_skaerm1 {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            z-index: 2;
+            background-image: url(info_bokse/pink.svg);
+            height: 30vw;
+            width: 28vw;
+            background-color: white;
+        }
+
+        #kryds1 {
+            position: absolute;
+            z-index: 2;
+            background-image: url(info_bokse/luk_info.svg);
+            height: 2vw;
+            width: 2vw;
+            cursor: pointer;
+            > > > > > > > origin/master
+        }
+>>>>>>> origin/master
