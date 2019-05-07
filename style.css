@@ -144,5 +144,9 @@ a:hover {
     flex-basis: 300px;
     display: flex;
     flex-direction: column;
+}
 
+#products img {
+    max-height: 300px;
+    max-width: 300px;
 }
