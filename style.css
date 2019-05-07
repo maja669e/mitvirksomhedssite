@@ -27,6 +27,13 @@ p {
     color: #525252;
 }
 
+figcaption {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    text-transform: none;
+    color: #525252;
+}
+
 a {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
@@ -38,7 +45,7 @@ a:hover {
     color: black;
 }
 
-img {
+<<<<<<< HEAD > > > > > > > origin/master=======img {
     width: 100%;
 }
 
@@ -46,7 +53,7 @@ img {
     width: 100vw;
     height: 100vh;
     max-width: none;
-    background-image: url(showcase_image/Artboard%205.png);
+    background-image: url(showcase_image/splash_ny.png);
     background-size: cover;
     background-position: 25% 0%;
 }
@@ -59,11 +66,25 @@ img {
     padding: 20px;
 }
 
+#cols {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.colaward {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+    flex-basis: 200px;
+    width: 30vw;
+}
+
 #showcase .col {
     display: flex;
     flex-direction: row;
     flex-grow: 2;
     flex-basis: 500px;
+    width: 40vw;
 }
 
 #gazelle {
@@ -184,11 +205,22 @@ header nav a:last-child {
 #work {
     background-image: url(showcase_image/work.jpg);
     background-size: 100%;
-    width: 35vw;
-    height: 20vw;
+    width: 25vw;
+    height: 14vw;
     left: 10vw;
     top: 20vw;
     margin: 10px;
+}
+
+#showcase .bottom {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#showcase .top {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
 }
 
 #image_footer {
@@ -207,4 +239,66 @@ header nav a:last-child {
     background-color: red;
     color: white;
     text-align: center;
+}
+
+.image_hidden {
+    visibility: hidden;
+}
+
+#bluecloud_container {
+    position: absolute;
+    top: 24.5vw;
+    left: 40vw;
+    z-index: 2;
+}
+
+#bluecloud_sprite {
+    background-size: 100%;
+    width: 12vw;
+    height: 20vw;
+    background-image: url(showcase_image/zarkoperfume-cloud-2-edp-unisex-100-ml-1.jpg);
+}
+
+#parfume {
+    position: absolute;
+    width: 25vw;
+    height: 22vw;
+    top: 32vw;
+    left: 42vw;
+    background-image: url(showcase_image/molecule.png);
+    z-index: 2;
+}
+
+
+.move {
+    animation-name: move_kf;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+}
+
+@keyframes move_kf {
+    0% {
+        left: 32vw;
+    }
+
+    100% {
+        left: 43vw;
+    }
+}
+
+
+> > > > > > > origin/master #products .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#products .col {
+    flex-grow: 1;
+    flex-basis: 300px;
+    display: flex;
+    flex-direction: column;
+
 }
