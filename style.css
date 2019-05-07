@@ -49,6 +49,12 @@ p {
     color: #525252;
 }
 
+li {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    text-transform: none;
+    color: #525252;
+}
 
 a {
     font-family: 'Lato', sans-serif;
@@ -215,6 +221,10 @@ a:hover {
     width: 100%;
 }
 
+#showcase .col1 {
+    margin: 3px;
+}
+
 
 @media only screen and (max-width: 700px) {
 
@@ -329,25 +339,6 @@ a:hover {
     left: 70vw;
 }
 
-#splash {
-    width: 100vw;
-    height: 100vh;
-    max-width: none;
-    background-image: url(showcase_image/splash_ny.png);
-    background-size: cover;
-    background-position: 25% 0%;
-}
-
-#box {
-    height: 30vw;
-    width: 20vw;
-    background-color: white;
-    justify-content: center;
-    top: 23vw;
-    left: 14.5vw;
-    position: relative;
-    z-index: 3;
-}
 
 
 
@@ -545,20 +536,6 @@ header nav a:link {
 }
 
 
-
-
-
-
-#work {
-    background-image: url(showcase_image/work.jpg);
-    background-size: 100%;
-    width: 25vw;
-    height: 14vw;
-    left: 10vw;
-    top: 20vw;
-    margin: 10px;
-}
-
 #showcase .bottom {
     display: flex;
     flex-wrap: wrap;
@@ -672,16 +649,7 @@ header nav a:link {
 }
 
 
-#parfume {
-    position: absolute;
-    width: 25vw;
-    height: 22vw;
-    background-image: url(showcase_image/molecule.png);
-    opacity: 1;
-    z-index: 4;
-}
-
-
+/*
 .move {
     animation-name: move_kf;
     animation-duration: 3s;
@@ -699,6 +667,7 @@ header nav a:link {
         left: 30vw;
     }
 }
+*/
 
 #products .sectionwrapper {
     display: flex;
@@ -732,6 +701,13 @@ header nav a:link {
 
 #products img:hover {
     opacity: 0.6;
+}
+
+#products_menu header {
+    position: relative;
+    top: 6vw;
+    left: 30vw;
+
 }
 
 #info_skaerm1 {
