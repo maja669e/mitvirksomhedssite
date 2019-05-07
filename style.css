@@ -45,8 +45,11 @@ a:hover {
     color: black;
 }
 
-#about {
-    margin: 0vw 12vw;
+.hidden {
+    /*    display: none;*/
+    /*    transform: scale(0);*/
+    transform: translateX(-100%);
+    opacity: 0;
 }
 
 #about #story_wrapper {
@@ -85,6 +88,73 @@ a:hover {
     outline: none;
 }
 
+.hidden_menu {
+    visibility: hidden;
+}
+
+#menuknap {
+    display: inline-block;
+}
+
+#menu {
+    list-style-type: none;
+    transition: transform .3s;
+    transform-origin: top left;
+}
+
+@media only screen and (min-width: 600px) {
+
+    #menuknap {
+        display: none;
+    }
+
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+
+    #menu li {
+        display: inline-block;
+    }
+}
+
+#about {
+    margin: 0vw 12vw;
+}
+
+#about #sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#about #text {
+    flex-grow: 2;
+    flex-basis: 200px;
+    padding: 2vw;
+    text-align: center;
+}
+
+#about #picture {
+    flex-grow: 1;
+    flex-basis: 200px;
+    padding: 4vw 2vw 2vw 4vw;
+}
+
+#about #img {
+    background-image: url(about_img/zarko_portraet.jpg);
+    background-size: 100%;
+    height: 400px;
+    width: 299.92px;
+    border-radius: 1%;
+}
+
+#about #zarkovideo {
+    width: 800px;
+    height: 450px;
+}
+
 #about #signature {
     text-align: center;
 }
@@ -105,9 +175,10 @@ a:hover {
     #about #zarkovideo {
         width: 400px;
         height: 225px;
+        text-align: center;
     }
 
-    #about #video {
+    #about #video_container {
         margin: 0;
     }
 
@@ -121,21 +192,272 @@ a:hover {
     width: 100%;
 }
 
+#splash {
+    width: 100vw;
+    height: 100vh;
+    max-width: none;
+    background-image: url(showcase_image/splash_ny.png);
+    background-size: cover;
+    background-position: 25% 0%;
+}
+
+#box {
+    height: 30vw;
+    width: 20vw;
+    background-color: white;
+    justify-content: center;
+    top: 23vw;
+    left: 14.5vw;
+    position: absolute;
+    z-index: 3;
+}
+
+#box1 {
+    height: 30vw;
+    width: 20vw;
+    background-color: white;
+    justify-content: center;
+    top: 23vw;
+    left: 66vw;
+    position: absolute;
+    z-index: 3;
+}
+
 #showcase .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
-    margin: 7px;
-    padding: 9px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 20px;
+}
+
+#cols {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.colaward {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+    flex-basis: 200px;
+    width: 30vw;
 }
 
 #showcase .col {
-    flex-basis: 300px;
-    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+    flex-basis: 500px;
+    width: 40vw;
 }
+
+#gazelle {
+    background-image: url(showcase_image/gazelle.png);
+    background-size: 100%;
+    width: 25vw;
+    height: 14vw;
+    left: 29vw;
+    top: 20vw;
+    margin: 10px;
+}
+
+#beauty {
+    background-image: url(showcase_image/beaty.png);
+    background-size: 100%;
+    width: 25vw;
+    height: 14vw;
+    left: 29vw;
+    top: 20vw;
+    margin: 10px;
+}
+
+#show {
+    background-image: url(showcase_image/zarko.png);
+    background-size: 100%;
+    width: 25vw;
+    height: 14vw;
+    left: 70vw;
+    top: 20vw;
+    margin: 10px;
+}
+
+#col1 {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-grow: 2;
+    flex-basis: 300px;
+    flex-direction: column;
+}
+
+header nav a:link {
+    color: #ce9865;
+}
+
+/* visited link */
+#splash_menu header nav a:visited {
+    color: #ffffff;
+}
+
+/* mouse over link */
+#splash_menu header nav a:hover {
+    color: #070505;
+}
+
+/* selected link */
+#splash_menu header nav a:active {
+    color: #d09864;
+}
+
+#splash_menu header {
+    position: absolute;
+    width: 100%;
+}
+
+#splash_menu header nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 1rem 1.5rem;
+}
+
+#splash_menu header nav a {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0.1rem 0;
+    padding: 0.1rem 0;
+    text-decoration: none;
+}
+
+#splash_menu header nav {
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 17rem;
+}
+
+#splash_menu header nav a {
+    font-size: 1.1rem;
+    margin: 0 0.2rem;
+    padding: 0 1rem 0 0;
+    border-right: 0.1rem solid white;
+}
+
+#splash_menu header nav a:last-child {
+    border-right: none;
+    padding: 0;
+}
+
+#facebook {
+    background-image: url(showcase_image/facebook-logo.png);
+    background-size: 100%;
+    width: 5vw;
+    height: 5vw;
+    left: 29vw;
+    top: 20vw;
+    margin: 10px;
+}
+
+#insta {
+    background-image: url(showcase_image/insta.png);
+    background-size: 100%;
+    width: 5vw;
+    height: 5vw;
+    left: 10vw;
+    top: 20vw;
+    margin: 10px;
+}
+
+#work {
+    background-image: url(showcase_image/work.jpg);
+    background-size: 100%;
+    width: 25vw;
+    height: 14vw;
+    left: 10vw;
+    top: 20vw;
+    margin: 10px;
+}
+
+#showcase .bottom {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#showcase .top {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+#image_footer {
+    flex-direction: row;
+}
+
+#facebook a:hover {
+    color: #c66385;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+.image_hidden {
+    visibility: hidden;
+}
+
+#bluecloud_container {
+    position: absolute;
+    width: 25vw;
+    height: 22vw;
+    top: 32vw;
+    left: 42vw;
+    background-image: url(showcase_image/pinkmolecule.png);
+    z-index: 2;
+}
+
+
+
+#parfume {
+    position: absolute;
+    width: 25vw;
+    height: 22vw;
+    top: 32vw;
+    left: 42vw;
+    background-image: url(showcase_image/molecule.png);
+    z-index: 2;
+}
+
+
+.move {
+    animation-name: move_kf;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+}
+
+@keyframes move_kf {
+    0% {
+        left: 20vw;
+    }
+
+    100% {
+        left: 64vw;
+    }
+}
+
 
 #products .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 20px;
 
 }
 
@@ -144,5 +466,9 @@ a:hover {
     flex-basis: 300px;
     display: flex;
     flex-direction: column;
+}
 
+#products img {
+    max-height: 300px;
+    max-width: 300px;
 }

@@ -6,6 +6,20 @@
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zarkoperfume</title>
+
+
+    <style>
+        .footer {
+            position: relative;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #e8e9eb;
+            color: white;
+            text-align: center;
+        }
+    </style>
+
     <link rel="apple-touch-icon" sizes="180x180" href="myIcons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="myIcons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="myIcons/favicon-16x16.png">
@@ -14,35 +28,71 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-config" content="myIcons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
 
 <body>
+    <section id="showcase_menu">
+        <header>
+            <nav>
+                <li> <a href="home.html">Home</a></li>
+                <li> <a href="about.html">About</a></li>
+                <li> <a href="products.html">Products</a></li>
+                <li><a href="showcase.html">Showcase</a></li>
+                <li><a href="press.html">Press</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+                <div id="menuknap">☰</div>
+                <ul id="menu" class="hidden_menu">
+                </ul>
+            </nav>
+
+        </header>
+    </section>
     <section id="showcase">
         <h1>showcase</h1>
         <div class="sectionwrapper">
-            <div class="col">
-                <ul>
-                    <li>Danish Beaty Awards - Årets ildsjæl 2018</li>
-                    <br>
-                    <li>Børsen GAZELLE 2018</li>
-                    <br>
-                    <li>Danish Beauty Awards</li>
-                </ul>
-            </div>
-            <div class="col">
-                <div class="image">
-                    <figure>
-                        <img src="showcase_image/Artboard%201.png" alt="img">
-                    </figure>
-                    <figure>
-                        <img src="showcase_image/gazelle.png" alt="img">
-                    </figure>
+            <div class="cols">
+                <div class="colaward">
+                    <ul>
+                        <li>Danish Beaty Awards - Årets ildsjæl 2018</li>
+                        <br>
+                        <li>Børsen GAZELLE 2018</li>
+                        <br>
+                        <li>Danish Beauty Awards 2015 - Årets danske produkt</li>
+                        <br>
+                        <li>Danish Beauty Awards 2015 - Bloggers choice award</li>
+                        <br>
+                        <li>Danish Beauty Awards 2014 - Årets danske produkt</li>
+                    </ul>
 
                 </div>
+                <div class="col">
+                    <div class="top">
 
+                        <div id="image_gazelle">
+                            <div id="gazelle"></div>
+                        </div>
+                        <div id="image_beaty">
+                            <div id="beauty"></div>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <div id="image_show">
+                            <div id="show"></div>
+                        </div>
+                        <div id="image_work">
+                            <div id="work"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
+
             <div class="col1">
 
+                <iframe src="https://player.vimeo.com/video/122132675" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                <p><a href="https://vimeo.com/122132675"></a><a href="https://vimeo.com/zarkoperfume"></a> <a href="https://vimeo.com"></a></p>
                 <h2>zarkoperfume - the movie</h2>
                 <p>I am extremely proud of presenting the Zarkoperfume concept film. <br> <br>
 
@@ -51,10 +101,30 @@
                     <br>
                     I hope you will enjoy it as much as I do.</p>
             </div>
+            <div class="col1">
+
+
+                <h2>concept</h2>
+                <p>Touching the senses in the way all fragrances do, is of <br>course next to impossible via an image. <br> <br>
+
+                    However, above is a selection of concepts, in which we <br> attempt to express the sense and value of our perfumes.</p>
+            </div>
         </div>
     </section>
-</body>
 
-</html>
+    <div class="footer">
+        <p>Zarkoperfume <br> Mail: <br> </p>
+        <div class="image_footer">
+            <div id="image_facebook">
+                <div id="facebook"></div>
+            </div>
+            <div id="image_insta">
+                <div id="insta"></div>
+            </div>
+            <p>©2019, zarkoperfume.com</p>
+        </div>
+    </div>
 
-<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</body></html>
+
+
