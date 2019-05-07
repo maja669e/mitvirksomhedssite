@@ -345,20 +345,11 @@ a:hover {
     justify-content: center;
     top: 23vw;
     left: 14.5vw;
-    position: absolute;
+    position: relative;
     z-index: 3;
 }
 
-#box1 {
-    height: 30vw;
-    width: 20vw;
-    background-color: white;
-    justify-content: center;
-    top: 23vw;
-    left: 66vw;
-    position: absolute;
-    z-index: 3;
-}
+
 
 #showcase .sectionwrapper {
     display: flex;
@@ -611,15 +602,6 @@ header nav a:link {
 
 .image_hidden {
     visibility: hidden;
-}
-
-#bluecloud_container {
-    position: absolute;
-    width: 25vw;
-    height: 22vw;
-    background-image: url(showcase_image/pinkmolecule.png);
-    opacity: 1;
-    z-index: 4;
 }
 
 

@@ -14,7 +14,6 @@ function sidenVises() {
 function imageAppear() {
     console.log("imageAppear");
 
-    document.querySelector("#parfume").removeEventListener("move");
     document.querySelector("#parfume").classList.remove("move");
     document.querySelector("#bluecloud_container").classList.add("move");
     document.querySelector("#bluecloud_container").addEventListener("animationend", sidenVises);
