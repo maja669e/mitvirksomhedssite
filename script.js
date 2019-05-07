@@ -34,3 +34,17 @@ function toggleMenu() {
         document.querySelector("#menuknap").textContent = "X";
     }
 }
+
+
+function perfumeScreen() {
+    console.log("perfumeScreen");
+    document.getElementById("products.html").innerHTML;
+    document.querySelector("#info_skaerm1").classList.add("hidden");
+    document.querySelector("#pink").addEventListener("click", infoSkaerm1);
+}
+
+function infoSkaerm1() {
+    console.log("infoSkaerm1");
+    document.querySelector("#info_skaerm1").classList.remove("hidden");
+    document.querySelector("#kryds1").addEventListener("click", perfumeScreen);
+}
