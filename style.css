@@ -132,12 +132,24 @@ a:hover {
 
 #box {
     height: 30vw;
-    width: 30vw;
-    background-color: aqua;
+    width: 20vw;
+    background-color: white;
     justify-content: center;
     top: 23vw;
-    left: 35vw;
+    left: 14.5vw;
     position: absolute;
+    z-index: 3;
+}
+
+#box1 {
+    height: 30vw;
+    width: 20vw;
+    background-color: white;
+    justify-content: center;
+    top: 23vw;
+    left: 66vw;
+    position: absolute;
+    z-index: 3;
 }
 
 #showcase .sectionwrapper {
@@ -329,17 +341,15 @@ header nav a:last-child {
 
 #bluecloud_container {
     position: absolute;
-    top: 24.5vw;
-    left: 40vw;
+    width: 25vw;
+    height: 22vw;
+    top: 32vw;
+    left: 42vw;
+    background-image: url(showcase_image/pinkmolecule.png);
     z-index: 2;
 }
 
-#bluecloud_sprite {
-    background-size: 100%;
-    width: 12vw;
-    height: 20vw;
-    background-image: url(showcase_image/zarkoperfume-cloud-2-edp-unisex-100-ml-1.jpg);
-}
+
 
 #parfume {
     position: absolute;
@@ -354,8 +364,8 @@ header nav a:last-child {
 
 .move {
     animation-name: move_kf;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
     animation-timing-function: linear;
     animation-fill-mode: both;
 }
@@ -366,7 +376,7 @@ header nav a:last-child {
     }
 
     100% {
-        left: 48vw;
+        left: 64vw;
     }
 }
 
