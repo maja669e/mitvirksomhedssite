@@ -376,13 +376,10 @@ header nav a:link {
     margin: 10px;
 }
 
-#insta {
-    background-image: url(showcase_image/insta.png);
+#image_insta {
     background-size: 100%;
-    width: 5vw;
-    height: 5vw;
-    left: 10vw;
-    top: 20vw;
+    left: 2vw;
+    top: 50vw;
     margin: 10px;
 }
 
@@ -518,4 +515,14 @@ header nav a:link {
     height: 2vw;
     width: 2vw;
     cursor: pointer;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #e2d5c7;
+    color: white;
+    text-align: center;
 }
