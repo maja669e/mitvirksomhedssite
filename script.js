@@ -8,5 +8,4 @@ function sidenVises() {
 function imageAppear() {
     console.log("imageAppear");
 
-    let randomNumber = Math.floor(Math.random() * 4)
 }

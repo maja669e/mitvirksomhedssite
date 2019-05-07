@@ -45,7 +45,79 @@ a:hover {
     color: black;
 }
 
-<<<<<<< HEAD > > > > > > > origin/master=======img {
+#about {
+    margin: 0vw 12vw;
+}
+
+#about #sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#about #text {
+    flex-grow: 2;
+    flex-basis: 200px;
+    padding: 2vw;
+    text-align: center;
+}
+
+#about #picture {
+    flex-grow: 1;
+    flex-basis: 200px;
+    padding: 4vw 2vw 2vw 4vw;
+}
+
+#about #img {
+    background-image: url(about_img/zarko_portraet.jpg);
+    background-size: 100%;
+    height: 400px;
+    width: 299.92px;
+    border-radius: 1%;
+}
+
+#about #zarkovideo {
+    width: 800px;
+    height: 450px;
+}
+
+#about #video {
+    margin: 0vw 0vw 0vw 5vw;
+}
+
+#about #signature {
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 700px) {
+
+    #about #picture,
+    #about #text {
+        padding:
+            1vw;
+    }
+
+    #about {
+        margin: 1vw;
+    }
+
+    #about #zarkovideo {
+        width: 400px;
+        height: 225px;
+    }
+
+    #about #video {
+        margin: 0;
+    }
+
+    #about #img {
+        width: 397.4px;
+        height: 530px;
+    }
+}
+
+#showcase img {
     width: 100%;
 }
 
@@ -56,6 +128,16 @@ a:hover {
     background-image: url(showcase_image/splash_ny.png);
     background-size: cover;
     background-position: 25% 0%;
+}
+
+#box {
+    height: 30vw;
+    width: 30vw;
+    background-color: aqua;
+    justify-content: center;
+    top: 23vw;
+    left: 35vw;
+    position: absolute;
 }
 
 #showcase .sectionwrapper {
@@ -125,7 +207,7 @@ a:hover {
     flex-direction: column;
 }
 
-header nav a:link {
+<<<<<<< HEAD header nav a:link {
     color: #ce9865;
 }
 
@@ -280,25 +362,30 @@ header nav a:last-child {
 
 @keyframes move_kf {
     0% {
-        left: 32vw;
+        left: 20vw;
     }
 
     100% {
-        left: 43vw;
+        left: 48vw;
     }
 }
 
 
-> > > > > > > origin/master #products .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
+#products .sectionwrapper {
+    #products .sectionwrapper {
+        display: flex;
+        flex-wrap: wrap;
 
-}
+    }
 
-#products .col {
-    flex-grow: 1;
-    flex-basis: 300px;
-    display: flex;
-    flex-direction: column;
+    #products .col {
+        flex-grow: 1;
+        flex-basis: 300px;
+        display: flex;
+        flex-direction: column;
+    }
 
-}
+    #products img {
+        max-height: 300px;
+        max-width: 300px;
+    }
