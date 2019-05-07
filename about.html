@@ -20,10 +20,12 @@
 <body>
     <section id="about">
         <h1>about</h1>
-        <div id="video">
-            <video controls loop autoplay src="about_img/zarkoperfume.mp4" id="zarkovideo"></video>
+        <div id="video_container">
+            <video id="zarkovideo" width="800" height="450" controls autoplay>
+                <source src="about_img/zarkoperfume.mp4" type="video/mp4">
+            </video>
         </div>
-        <div id="sectionwrapper">
+        <div id="story_wrapper">
             <div id="text">
                 <h1>the story</h1>
                 <p>For almost as long as I can remember, I have dreamt of creating a fragrance that captures the singular climate, lifestyle and aesthetics of my native Scandinavia.
@@ -43,7 +45,7 @@
 
             </div>
             <div id="picture">
-                <div id="img"></div>
+                <div id="portrait"></div>
             </div>
         </div>
         <div id="signature"><img src="about_img/signature.png" alt="signature">
