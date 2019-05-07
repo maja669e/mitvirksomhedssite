@@ -5,6 +5,9 @@ html {
 body {
     margin: 0;
     padding: 0;
+    width: 100vw;
+    height: 56.25vw;
+    position: absolute;
 }
 
 #screen {
@@ -113,6 +116,7 @@ a:hover {
 
 #menuknap {
     display: inline-block;
+    cursor: pointer;
 }
 
 #menu {
@@ -583,28 +587,27 @@ header nav a:link {
     width: 100%;
     background-color: #e2d5c7;
     color: white;
+}
+
+#image_facebook {
+    position: relative;
+    background-size: 100%;
+    left: 1vw;
+    top: 3vw;
+}
+
+#image_insta {
+    position: relative;
+    background-size: 100%;
+    left: 1vw;
+    top: 3vw;
+
+}
+
+.bottom_footer p {
     text-align: center;
 }
 
-#facebook {
-    background-image: url(showcase_image/facebook-logo.png);
-    background-size: 100%;
-    width: 5vw;
-    height: 5vw;
-    left: 29vw;
-    top: 20vw;
-    margin: 10px;
-}
-
-#insta {
-    background-image: url(showcase_image/insta.png);
-    background-size: 100%;
-    width: 5vw;
-    height: 5vw;
-    left: 10vw;
-    top: 20vw;
-    margin: 10px;
-}
 
 .image_hidden {
     visibility: hidden;
