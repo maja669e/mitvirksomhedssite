@@ -504,15 +504,15 @@ header nav a:link {
 #image_facebook {
     position: relative;
     background-size: 100%;
-    left: 1vw;
-    top: 3vw;
+    left: 45vw;
+    top: 1vw;
 }
 
 #image_insta {
     position: relative;
     background-size: 100%;
-    left: 1vw;
-    top: 3vw;
+    left: 50vw;
+    top: -4.2vw;
 
 }
 
