@@ -82,6 +82,7 @@ a:hover {
 #menuknap {
     display: inline-block;
     cursor: pointer;
+    font-size: 2rem;
 }
 
 #menu {
@@ -376,66 +377,6 @@ a:hover {
     flex-direction: column;
 }
 
-header nav a:link {
-    color: #ce9865;
-}
-
-
-/* visited link */
-#splash_menu header nav a:visited {
-    color: #ffffff;
-}
-
-
-/* mouse over link */
-#splash_menu header nav a:hover {
-    color: #070505;
-}
-
-/* selected link */
-#splash_menu header nav a:active {
-    color: #d09864;
-}
-
-#splash_menu header {
-    position: absolute;
-    width: 100%;
-}
-
-#splash_menu header nav {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    margin: 1rem 1.5rem;
-}
-
-#splash_menu header nav a {
-    font-size: 1.2rem;
-    font-family: 'Montserrat', sans-serif;
-    margin: 0.1rem 0;
-    padding: 0.1rem 0;
-    text-decoration: none;
-}
-
-#splash_menu header nav {
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 17rem;
-}
-
-#splash_menu header nav a {
-    font-size: 1.1rem;
-    margin: 0 0.2rem;
-    padding: 0 1rem 0 0;
-    border-right: 0.1rem solid white;
-}
-
-#splash_menu header nav a:last-child {
-    border-right: none;
-    padding: 0;
-}
-
-
 
 #col1 {
     display: flex;
@@ -471,30 +412,20 @@ header nav a:link {
 
 #splash_menu header nav {
     display: flex;
-    flex-direction: column;
     align-items: flex-end;
-    margin: 1rem 1.5rem;
-}
-
-#splash_menu header nav a {
-    font-size: 1.2rem;
-    font-family: 'Montserrat', sans-serif;
-    margin: 0.1rem 0;
-    padding: 0.1rem 0;
-    text-decoration: none;
-}
-
-#splash_menu header nav {
-    flex-direction: row;
+    /*margin: 1rem 1.5rem;*/
     justify-content: center;
-    margin-top: 17rem;
+    flex-direction: row;
+    margin-top: 14rem;
 }
 
 #splash_menu header nav a {
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.1rem;
     margin: 0 0.2rem;
     padding: 0 1rem 0 0;
     border-right: 0.1rem solid white;
+    text-decoration: none;
 }
 
 #splash_menu header nav a:last-child {
@@ -502,6 +433,11 @@ header nav a:link {
     padding: 0;
 }
 
+#splash_menu #menuknap {
+    position: absolute;
+    left: 75vw;
+    top: 0vw;
+}
 
 #showcase .bottom {
     display: flex;
@@ -710,9 +646,25 @@ header nav a:link {
         left: 60px;
     }
 
-    #about_menu header nav a {
+    #side_menu header nav a {
         font-size: 0.9rem;
     }
+
+    #splash_menu header nav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin: 1rem 1.5rem;
+    }
+
+    #splash_menu header nav a {
+        font-size: 1.2rem;
+        font-family: 'Montserrat', sans-serif;
+        margin: 0.1rem 0;
+        padding: 0.1rem 0;
+        text-decoration: none;
+    }
+
 
     #about #text {
         padding:
@@ -730,8 +682,8 @@ header nav a:link {
     }
 
     #about #zarkovideo {
-        width: 400px;
-        height: 225px;
+        width: 440px;
+        height: 250px;
         text-align: center;
     }
 
