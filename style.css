@@ -129,7 +129,7 @@ a:hover {
 #about #picture {
     flex-grow: 1;
     flex-basis: 200px;
-    padding: 3vw 2vw 2vw 4vw;
+    padding: 8vw 2vw 2vw 4vw;
 
 }
 
@@ -161,7 +161,7 @@ a:hover {
 
     #about #text {
         padding:
-            1vw;
+            4vw;
     }
 
     #about #picture {
@@ -184,9 +184,8 @@ a:hover {
         margin: 0;
     }
 
-    #about #img {
-        width: 397.4px;
-        height: 530px;
+    #about p {
+        font-size: 14px;
     }
 }
 
@@ -196,34 +195,6 @@ a:hover {
 
 #showcase .col1 {
     margin: 3px;
-}
-
-
-@media only screen and (max-width: 700px) {
-
-    #about #picture,
-    #about #text {
-        padding:
-            1vw;
-    }
-
-    #about {
-        margin: 1vw;
-    }
-
-    #about #zarkovideo {
-        width: 400px;
-        height: 225px;
-    }
-
-    #about #video {
-        margin: 0;
-    }
-
-    #about #img {
-        width: 397.4px;
-        height: 530px;
-    }
 }
 
 #showcase img {
