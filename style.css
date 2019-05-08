@@ -75,12 +75,11 @@ a:hover {
 
 }
 
-
-> > > > > > > origin/master .hidden_menu {
+.hidden_menu {
     visibility: hidden;
 }
 
-*/ #menuknap {
+#menuknap {
     display: inline-block;
     cursor: pointer;
 }
@@ -108,9 +107,64 @@ a:hover {
     }
 }
 
+#side_menu header {
+    position: absolute;
+    top: 35px;
+    left: 300px;
+
+}
+
+/* visited link */
+#side_menu header nav a:visited {
+    color: #ce9865;
+}
+
+/* mouse over link */
+#side_menu header nav a:hover {
+    color: #070505;
+}
+
+/* selected link */
+#side_menu header nav a:active {
+    color: #d09864;
+}
+
+#side_menu header {
+    position: absolute;
+}
+
+#side_menu header nav {
+    display: flex;
+    align-items: flex-end;
+    margin: 1rem 1.5rem;
+    justify-content: center;
+}
+
+#side_menu header nav a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin: 0 0.2rem;
+    padding: 0 1rem 0 0;
+    border-right: 1px solid black;
+}
+
+#side_menu header nav a:last-child {
+    border-right: none;
+    padding: 0;
+}
+
+
+#side_menu #menuknap {
+    position: absolute;
+    left: 75vw;
+    top: 0vw;
+}
+
 #about {
     margin: 0vw 12vw;
 }
+
 
 #about #story_wrapper {
     display: flex;
@@ -149,6 +203,7 @@ a:hover {
     outline: none;
     width: 800px;
     height: 450px;
+    margin: 3vw 0vw 0vw 0vw;
 }
 
 #about #signature {
@@ -156,38 +211,6 @@ a:hover {
 }
 
 
-@media only screen and (max-width: 700px) {
-
-
-    #about #text {
-        padding:
-            4vw;
-    }
-
-    #about #picture {
-        padding: 1vw;
-        position: relative;
-        left: 15vw;
-    }
-
-    #about {
-        margin: 1vw;
-    }
-
-    #about #zarkovideo {
-        width: 400px;
-        height: 225px;
-        text-align: center;
-    }
-
-    #about #video_container {
-        margin: 0;
-    }
-
-    #about p {
-        font-size: 14px;
-    }
-}
 
 #showcase img {
     width: 100%;
@@ -208,7 +231,7 @@ a:hover {
     max-width: none;
     background-image: url(showcase_image/splash_ny.png);
     background-size: cover;
-    background-position: 25% 0%;
+    background-position: 50% 0%;
 }
 
 #box {
@@ -565,6 +588,7 @@ header nav a:link {
     width: 350px;
     height: 350px;
     background-image: url(showcase_image/molecule.png);
+    background-size: 100%;
     z-index: 4;
     left: -25vw;
     top: 13vw;
@@ -591,7 +615,7 @@ header nav a:link {
     }
 }
 
-*/ #products .sectionwrapper {
+#products .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
     margin-left: 100px;
@@ -650,4 +674,124 @@ header nav a:link {
     height: 2vw;
     width: 2vw;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 1200px) {
+    #side_menu header {
+        left: 250px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    #side_menu header {
+        left: 200px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #side_menu header {
+        left: 100px;
+    }
+
+    #side_menu header nav a {
+        font-size: 0.9rem;
+    }
+
+    #about #zarkovideo {
+        width: 600px;
+        height: 340px;
+        text-align: center;
+    }
+}
+
+
+@media only screen and (max-width: 700px) {
+    #side_menu header {
+        left: 60px;
+    }
+
+    #about_menu header nav a {
+        font-size: 0.9rem;
+    }
+
+    #about #text {
+        padding:
+            4vw;
+    }
+
+    #about #picture {
+        padding: 1vw;
+        position: relative;
+        left: 15vw;
+    }
+
+    #about {
+        margin: 1vw;
+    }
+
+    #about #zarkovideo {
+        width: 400px;
+        height: 225px;
+        text-align: center;
+    }
+
+    #about #video_container {
+        margin: 0;
+    }
+
+    #about p {
+        font-size: 14px;
+    }
+
+    #box {
+        height: 350px;
+        width: 350px;
+        background-color: rgba(255, 255, 255, 0.25);
+        justify-content: center;
+        top: 280px;
+        left: 70px;
+        position: relative;
+        z-index: 3;
+        border: solid #ba8548 2px;
+        overflow: hidden;
+
+    }
+
+    #bluecloud_container {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        top: 40px;
+        background-image: url(showcase_image/parfume2.png);
+        z-index: 4;
+        left: -60vw;
+    }
+
+    #parfume {
+        position: absolute;
+        width: 350px;
+        height: 350px;
+        top: 10px;
+        background-image: url(showcase_image/molecule.png);
+        z-index: 4;
+        left: -60vw;
+    }
+
+    .move {
+        animation-name: move_kf;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-fill-mode: both;
+    }
+
+    @keyframes move_kf {
+        0% {
+            /*        left: -25vw;*/
+        }
+
+        100% {
+            left: 100vw;
+        }
+    }
 }
