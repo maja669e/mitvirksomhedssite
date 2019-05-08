@@ -527,15 +527,15 @@ header nav a:link {
 #image_facebook {
     position: relative;
     background-size: 100%;
-    left: 1vw;
-    top: 3vw;
+    left: 45vw;
+    top: 1vw;
 }
 
 #image_insta {
     position: relative;
     background-size: 100%;
-    left: 1vw;
-    top: 3vw;
+    left: 50vw;
+    top: -4.2vw;
 
 }
 
@@ -585,12 +585,14 @@ header nav a:link {
 
 #parfume {
     position: absolute;
-    width: 26vw;
-    height: 23vw;
+    width: 350px;
+    height: 350px;
     background-image: url(showcase_image/molecule.png);
     background-size: 100%;
     z-index: 4;
     left: -25vw;
+    top: 13vw;
+    background-size: 100%;
 }
 
 .move {
@@ -604,10 +606,12 @@ header nav a:link {
 @keyframes move_kf {
     0% {
         /*        left: -25vw;*/
+        top: 7vw;
     }
 
     100% {
         left: 30vw;
+        top: 7vw;
     }
 }
 
