@@ -87,11 +87,7 @@ hidden {
 #menuknap {
     display: inline-block;
     cursor: pointer;
-<<<<<<< HEAD
     font-size: 2rem;
-=======
-    font-size: 3rem;
->>>>>>> origin/master
 }
 
 #menu {
@@ -472,6 +468,7 @@ header nav a:link {
 #image_facebook {
     position: relative;
     background-size: 100%;
+<<<<<<< HEAD
 
     /*left: 1vw;
     top: 3vw;*/
@@ -479,19 +476,37 @@ header nav a:link {
     left: 45vw;
     top: 1vw;
 
+=======
+    <<<<<<< HEAD
+    /*left: 1vw;
+    top: 3vw;*/
+    =======left: 45vw;
+    top: 1vw;
+    > > > > > > > origin/master
+>>>>>>> origin/master
 }
 
 #image_insta {
     position: relative;
     background-size: 100%;
+<<<<<<< HEAD
     left: 50vw;
     top: -3.8vw;
     /*left: 1vw;
     top: 3vw;*/
 }
 
+=======
+    <<<<<<< HEAD
+    /*left: 1vw;
+    top: 3vw;*/
+}
+>>>>>>> origin/master
 
-#social {
+=======left: 50vw;
+top: -3.8vw;
+
+> > > > > > > origin/master #social {
     display: flex;
     justify-content: center;
 }
@@ -831,6 +846,15 @@ header nav a:link {
         height: 350px;
         top: 10px;
         background-image: url(showcase_image/molecule.png);
+        z-index: 4;
+        left: -60vw;
+    }
+
+    #parfume1 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        background-image: url(showcase_image/parfume3.png);
         z-index: 4;
         left: -60vw;
     }
