@@ -114,12 +114,53 @@ a:hover {
 #about_menu header {
     position: absolute;
     top: 35px;
-    left: 400px;
+    left: 300px;
+
+}
+
+/* visited link */
+#about_menu header nav a:visited {
+    color: #ce9865;
+}
+
+/* mouse over link */
+#about_menu header nav a:hover {
+    color: #070505;
+}
+
+/* selected link */
+#about_menu header nav a:active {
+    color: #d09864;
+}
+
+#about_menu header {
+    position: absolute;
+}
+
+#about_menu header nav {
+    display: flex;
+    align-items: flex-end;
+    margin: 1rem 1.5rem;
+    justify-content: center;
+}
+
+#about_menu header nav a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin: 0 0.2rem;
+    padding: 0 1rem 0 0;
+    border-right: 1px solid black;
+}
+
+#about_menu header nav a:last-child {
+    border-right: none;
+    padding: 0;
 }
 
 @media only screen and (max-width: 1200px) {
     #about_menu header {
-        left: 350px;
+        left: 250px;
     }
 }
 
@@ -133,11 +174,26 @@ a:hover {
     #about_menu header {
         left: 100px;
     }
+
+    #about_menu header nav a {
+        font-size: 0.9rem;
+    }
 }
 
+@media only screen and (max-width: 700px) {
+    #about_menu header {
+        left: 60px;
+    }
+
+    #about_menu header nav a {
+        font-size: 0.9rem;
+    }
+}
+
+
 #about_menu #menuknap {
-    position: relative;
-    left: 70vw;
+    position: absolute;
+    left: 75vw;
     top: 0vw;
 }
 
@@ -178,7 +234,7 @@ a:hover {
     outline: none;
     width: 800px;
     height: 450px;
-    margin: 2vw 0vw 0vw 0vw;
+    margin: 3vw 0vw 0vw 0vw;
 }
 
 #about #signature {
