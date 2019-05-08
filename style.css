@@ -82,6 +82,7 @@ a:hover {
 #menuknap {
     display: inline-block;
     cursor: pointer;
+    font-size: 3rem;
 }
 
 #menu {
@@ -595,9 +596,19 @@ header nav a:link {
     background-size: 100%;
 }
 
+#parfume1 {
+    position: absolute;
+    width: 24vw;
+    height: 21vw;
+    background-image: url(showcase_image/parfume3.png);
+    z-index: 4;
+    left: -25vw;
+}
+
+
 .move {
     animation-name: move_kf;
-    animation-duration: 3s;
+    animation-duration: 5s;
     animation-iteration-count: 1;
     animation-timing-function: linear;
     animation-fill-mode: both;

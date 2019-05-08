@@ -5,6 +5,9 @@ function sidenVises() {
 
     document.querySelector("#bluecloud_container").classList.remove("move");
     document.querySelector("#bluecloud_container").removeEventListener("animationend", sidenVises);
+    document.querySelector("#parfume1").classList.remove("move");
+
+    document.querySelector("#parfume1").removeEventListener("animationend", sidenVises);
 
     if (document.getElementById("parfume")) {
         document.querySelector("#parfume").classList.add("move");
@@ -20,10 +23,20 @@ function imageAppear() {
     //    document.querySelector("#parfume").classList.remove("move");
 
     document.querySelector("#bluecloud_container").classList.add("move");
-    document.querySelector("#bluecloud_container").addEventListener("animationend", sidenVises);
+    document.querySelector("#bluecloud_container").addEventListener("animationend", imageAppear1);
     document.querySelector("#parfume").classList.remove("move");
 
     document.querySelector("#parfume").removeEventListener("animationend", imageAppear);
+}
+
+function imageAppear1() {
+    console.log("imageAppear1");
+
+    document.querySelector("#parfume1").classList.add("move");
+    document.querySelector("#parfume1").addEventListener("animationend", sidenVises);
+    document.querySelector("#bluecloud_container").classList.remove("move");
+
+    document.querySelector("#bluecloud_container").removeEventListener("animationend", sidenVises);
 }
 
 function toggleMenu() {
