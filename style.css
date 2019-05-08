@@ -561,6 +561,7 @@ header nav a:link {
 }
 
 .dropbtn {
+    border-radius: 10px;
     background-color: rgba(219, 199, 180, 0.17);
     color: #777777;
     padding: 10px;
