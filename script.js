@@ -3,6 +3,12 @@ window.addEventListener("load", sidenVises);
 function sidenVises() {
     console.log("sidenVises");
 
+    document.querySelector("#bluecloud_container").classList.remove("move");
+    document.querySelector("#bluecloud_container").removeEventListener("animationend", sidenVises);
+    document.querySelector("#parfume1").classList.remove("move");
+
+    document.querySelector("#parfume1").removeEventListener("animationend", sidenVises);
+
     if (document.getElementById("parfume")) {
         document.querySelector("#parfume").classList.add("move");
 
@@ -14,10 +20,23 @@ function sidenVises() {
 function imageAppear() {
     console.log("imageAppear");
 
-    document.querySelector("#parfume").classList.remove("move");
-    document.querySelector("#bluecloud_container").classList.add("move");
-    document.querySelector("#bluecloud_container").addEventListener("animationend", sidenVises);
+    //    document.querySelector("#parfume").classList.remove("move");
 
+    document.querySelector("#bluecloud_container").classList.add("move");
+    document.querySelector("#bluecloud_container").addEventListener("animationend", imageAppear1);
+    document.querySelector("#parfume").classList.remove("move");
+
+    document.querySelector("#parfume").removeEventListener("animationend", imageAppear);
+}
+
+function imageAppear1() {
+    console.log("imageAppear1");
+
+    document.querySelector("#parfume1").classList.add("move");
+    document.querySelector("#parfume1").addEventListener("animationend", sidenVises);
+    document.querySelector("#bluecloud_container").classList.remove("move");
+
+    document.querySelector("#bluecloud_container").removeEventListener("animationend", sidenVises);
 }
 
 function toggleMenu() {
@@ -37,7 +56,7 @@ function toggleMenu() {
 
 function perfumeScreen() {
     console.log("perfumeScreen");
-    document.getElementById("products.html").innerHTML;
+    document.getElementById("pink").innerHTML;
     document.querySelector("#info_skaerm1").classList.add("hidden");
     document.querySelector("#pink").addEventListener("click", infoSkaerm1);
 }
