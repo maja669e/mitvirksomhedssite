@@ -79,7 +79,7 @@ a:hover {
     visibility: hidden;
 }
 
-*/ #menuknap {
+#menuknap {
     display: inline-block;
     cursor: pointer;
 }
