@@ -79,6 +79,11 @@ a:hover {
     visibility: hidden;
 }
 
+hidden {
+    visibility: hidden;
+}
+
+
 #menuknap {
     display: inline-block;
     cursor: pointer;
@@ -528,26 +533,24 @@ header nav a:link {
 #image_facebook {
     position: relative;
     background-size: 100%;
-<<<<<<< HEAD
+
     /*left: 1vw;
     top: 3vw;*/
-=======
+
     left: 45vw;
     top: 1vw;
->>>>>>> origin/master
+
 }
 
 #image_insta {
     position: relative;
     background-size: 100%;
-<<<<<<< HEAD
+    left: 50vw;
+    top: -3.8vw;
     /*left: 1vw;
     top: 3vw;*/
 }
-=======
-    left: 50vw;
-    top: -3.8vw;
->>>>>>> origin/master
+
 
 #social {
     display: flex;
@@ -760,7 +763,7 @@ header nav a:link {
     width: 100%;
     height: 100%;
     position: absolute;
-    z-index: 3;
+    z-index: 10;
     background-image: url(info_bokse/pink.svg);
     height: 30vw;
     width: 28vw;
