@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="da">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
     <link rel="stylesheet" href="style.css">
-    <title></title>
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="myIcons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="myIcons/favicon-32x32.png">
@@ -15,6 +15,8 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-config" content="myIcons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
@@ -35,19 +37,67 @@
         </header>
     </section>
 
-    <footer class="bottom_footer">
-        <p>Zarkoperfume <br> Email: info@zarkoperfume.com <br>
-            Phone: +45-70701087 </p>
-        <div class="image_footer">
-            <div id="image_facebook">
-                <a href="https://www.facebook.com/zarkoperfume/"> <img border="0" src="showcase_image/facebook-logo.png" width="65" height="65" alt="instagram"> </a>
-            </div>
-            <div id="image_insta">
-                <a href="https://www.instagram.com/zarkoperfume/"> <img border="0" src="showcase_image/insta.png" width="65" height="65" alt="instagram"> </a>
-            </div>
-            <p>©2019 zarkoperfume.com</p>
-        </div>
-    </footer>
-</body>
+    <section id="contact">
+        <h1>Contact</h1>
+        <section id="sectionwrapper">
 
-</html>
+            <div id="text1">
+                <h2>SOCIAL</h2>
+                <p>Join us on Facebook or Instagram for the latest updates.</p>
+                <div id="social">
+                    <div id="image_facebook">
+                        <a href="https://www.facebook.com/zarkoperfume/"> <img border="0" src="showcase_image/facebook-logo.png" width="65" height="65" alt="instagram"> </a>
+                    </div>
+                    <div id="image_insta">
+                        <a href="https://www.instagram.com/zarkoperfume/"> <img border="0" src="showcase_image/insta.png" width="65" height="65" alt="instagram"> </a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="text2">
+                <h2>WHOLESALE & RETAIL</h2>
+                <p>
+                    Are you interested in becoming a retail customer of our perfumes, please contact the distributor pertaining to your country.
+                </p>
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Select Country</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#">Austria</a>
+                        <a href="#">Belgium</a>
+                        <a href="#">Denmark</a>
+                        <a href="#">Germany</a>
+                        <a href="#">Ireland</a>
+                        <a href="#">Italy</a>
+                        <a href="#">Liechtenstein</a>
+                        <a href="#">Luxemburg</a>
+                        <a href="#">Monaco</a>
+                        <a href="#">Netherlands</a>
+                        <a href="#">Norway</a>
+                        <a href="#">Spain</a>
+                        <a href="#">Sweden</a>
+                        <a href="#">Switzerland</a>
+                        <a href="#">United Kingdom</a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="text3">
+                <h2>CUSTOMER SERVICE</h2>
+                <p>
+                    Email: info@zarkoperfume.com
+                    <br>Phone: +45-70701087
+                </p>
+            </div>
+
+        </section>
+    </section>
+
+    <footer class="bottom_footer">
+
+        <p>©2019 zarkoperfume.com</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body></html>

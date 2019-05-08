@@ -528,16 +528,30 @@ header nav a:link {
 #image_facebook {
     position: relative;
     background-size: 100%;
+<<<<<<< HEAD
+    /*left: 1vw;
+    top: 3vw;*/
+=======
     left: 45vw;
     top: 1vw;
+>>>>>>> origin/master
 }
 
 #image_insta {
     position: relative;
     background-size: 100%;
+<<<<<<< HEAD
+    /*left: 1vw;
+    top: 3vw;*/
+}
+=======
     left: 50vw;
     top: -3.8vw;
+>>>>>>> origin/master
 
+#social {
+    display: flex;
+    justify-content: center;
 }
 
 .bottom_footer p {
@@ -549,6 +563,81 @@ header nav a:link {
     visibility: hidden;
 }
 
+#contact {
+    margin: 0vw 12vw;
+}
+
+#contact #sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#contact #text1 {
+    flex-grow: 2;
+    flex-basis: 200px;
+    padding: 2vw;
+    text-align: center;
+}
+
+#contact #text2 {
+    flex-grow: 2;
+    flex-basis: 200px;
+    padding: 2vw;
+    text-align: center;
+}
+
+#contact #text3 {
+    flex-grow: 2;
+    flex-basis: 200px;
+    padding: 2vw;
+    text-align: center;
+}
+
+.dropbtn {
+    border-radius: 10px;
+    background-color: rgba(219, 199, 180, 0.17);
+    color: #777777;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: rgba(230, 191, 154, 0.17);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 4px 4px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
 
 #work {
     background-image: url(showcase_image/work.jpg);
