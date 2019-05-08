@@ -56,9 +56,13 @@ function toggleMenu() {
 
 function perfumeScreen() {
     console.log("perfumeScreen");
-    document.getElementById("pink").innerHTML;
-    document.querySelector("#info_skaerm1").classList.add("hidden");
-    document.querySelector("#pink").addEventListener("click", infoSkaerm1);
+    if (document.getElementById("parfume")) {
+
+        if (document.getElementById("pink")) {
+            document.querySelector("#info_skaerm1").classList.add("hidden");
+            document.querySelector("#pink").addEventListener("click", infoSkaerm1);
+        }
+    }
 }
 
 function infoSkaerm1() {

@@ -671,7 +671,7 @@ header nav a:link {
     width: 100%;
     height: 100%;
     position: absolute;
-    z-index: 2;
+    z-index: 3;
     background-image: url(info_bokse/pink.svg);
     height: 30vw;
     width: 28vw;
