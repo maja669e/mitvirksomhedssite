@@ -17,7 +17,6 @@ function imageAppear() {
     document.querySelector("#parfume").classList.remove("move");
     document.querySelector("#bluecloud_container").classList.add("move");
     document.querySelector("#bluecloud_container").addEventListener("animationend", sidenVises);
-
 }
 
 function toggleMenu() {

@@ -561,39 +561,14 @@ header nav a:link {
     z-index: 2;
 }
 
-
-
 #parfume {
     position: absolute;
     width: 25vw;
     height: 22vw;
-    top: 32vw;
-    left: 42vw;
     background-image: url(showcase_image/molecule.png);
-    z-index: 2;
+    z-index: 4;
 }
 
-
-.move {
-    animation-name: move_kf;
-    animation-duration: 3s;
-    animation-iteration-count: 1;
-    animation-timing-function: linear;
-    animation-fill-mode: both;
-}
-
-@keyframes move_kf {
-    0% {
-        left: 20vw;
-    }
-
-    100% {
-        left: 64vw;
-    }
-}
-
-
-/*
 .move {
     animation-name: move_kf;
     animation-duration: 3s;
@@ -611,9 +586,8 @@ header nav a:link {
         left: 30vw;
     }
 }
-*/
 
-#products .sectionwrapper {
+*/ #products .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
     margin-left: 100px;
