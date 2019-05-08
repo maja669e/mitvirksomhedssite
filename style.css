@@ -69,9 +69,6 @@ a:hover {
 
 }
 
-
-/*
-=======
 #about #story_wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -108,13 +105,11 @@ a:hover {
     outline: none;
 }
 
->>>>>>> origin/master
-.hidden_menu {
+> > > > > > > origin/master .hidden_menu {
     visibility: hidden;
 }
-*/
 
-#menuknap {
+*/ #menuknap {
     display: inline-block;
     cursor: pointer;
 }
