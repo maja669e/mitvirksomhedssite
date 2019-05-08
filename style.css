@@ -478,58 +478,60 @@ header nav a:link {
     text-align: center;
 }
 
+#contact_image_facebook {
+    position: relative;
+    background-size: 100%;
+}
+
+#contact_image_insta {
+    position: relative;
+    background-size: 100%;
+}
+
+#contact_social {
+    display: flex;
+    justify-content: center;
+}
+
+
 #image_facebook {
     position: relative;
     background-size: 100%;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
+    <<<<<<< HEAD=======<<<<<<< HEAD
     /*left: 1vw;
     top: 3vw;*/
 
     left: 45vw;
     top: 1vw;
 
-=======
-    <<<<<<< HEAD
+    =======<<<<<<< HEAD
     /*left: 1vw;
     top: 3vw;*/
     =======left: 45vw;
     top: 1vw;
-    > > > > > > > origin/master
->>>>>>> origin/master
->>>>>>> origin/master
+    > > > > > > > origin/master > > > > > > > origin/master > > > > > > > origin/master
 }
 
 #image_insta {
     position: relative;
     background-size: 100%;
-<<<<<<< HEAD
-}
-=======
-<<<<<<< HEAD
-    left: 50vw;
-    top: -3.8vw;
-    /*left: 1vw;
-    top: 3vw;*/
-}
-
-=======
     <<<<<<< HEAD
-    /*left: 1vw;
+}
+
+=======<<<<<<< HEAD left: 50vw;
+top: -3.8vw;
+/*left: 1vw;
     top: 3vw;*/
 }
->>>>>>> origin/master
->>>>>>> origin/master
 
-=======left: 50vw;
+=======<<<<<<< HEAD
+/*left: 1vw;
+    top: 3vw;*/
+}
+
+> > > > > > > origin/master > > > > > > > origin/master=======left: 50vw;
 top: -3.8vw;
 
-> > > > > > > origin/master #social {
-    display: flex;
-    justify-content: center;
-}
 
 .bottom_footer p {
     text-align: center;
