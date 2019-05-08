@@ -56,7 +56,7 @@ function toggleMenu() {
 
 function perfumeScreen() {
     console.log("perfumeScreen");
-    document.getElementById("products.html").innerHTML;
+    document.getElementById("pink").innerHTML;
     document.querySelector("#info_skaerm1").classList.add("hidden");
     document.querySelector("#pink").addEventListener("click", infoSkaerm1);
 }
