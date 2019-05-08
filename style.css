@@ -263,11 +263,6 @@ hidden {
     padding: 20px;
 }
 
-#cols {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .colaward {
     display: flex;
     flex-direction: row;
@@ -311,8 +306,6 @@ hidden {
     height: 14vw;
     left: 70vw;
 }
-
-
 
 
 #showcase .sectionwrapper {
@@ -468,42 +461,20 @@ header nav a:link {
 #image_facebook {
     position: relative;
     background-size: 100%;
-<<<<<<< HEAD
-
-    /*left: 1vw;
-    top: 3vw;*/
-
     left: 45vw;
     top: 1vw;
-
-=======
-    <<<<<<< HEAD
-    /*left: 1vw;
-    top: 3vw;*/
-    =======left: 45vw;
-    top: 1vw;
-    > > > > > > > origin/master
->>>>>>> origin/master
 }
 
 #image_insta {
     position: relative;
     background-size: 100%;
-<<<<<<< HEAD
     left: 50vw;
     top: -3.8vw;
     /*left: 1vw;
     top: 3vw;*/
 }
 
-=======
-    <<<<<<< HEAD
-    /*left: 1vw;
-    top: 3vw;*/
-}
->>>>>>> origin/master
-
-=======left: 50vw;
+> > > > > > > origin/master=======left: 50vw;
 top: -3.8vw;
 
 > > > > > > > origin/master #social {
