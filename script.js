@@ -5,6 +5,9 @@ function sidenVises() {
 
     document.querySelector("#bluecloud_container").classList.remove("move");
     document.querySelector("#bluecloud_container").removeEventListener("animationend", sidenVises);
+    document.querySelector("#parfume1").classList.remove("move");
+
+    document.querySelector("#parfume1").removeEventListener("animationend", sidenVises);
 
     if (document.getElementById("parfume")) {
         document.querySelector("#parfume").classList.add("move");
@@ -20,10 +23,20 @@ function imageAppear() {
     //    document.querySelector("#parfume").classList.remove("move");
 
     document.querySelector("#bluecloud_container").classList.add("move");
-    document.querySelector("#bluecloud_container").addEventListener("animationend", sidenVises);
+    document.querySelector("#bluecloud_container").addEventListener("animationend", imageAppear1);
     document.querySelector("#parfume").classList.remove("move");
 
     document.querySelector("#parfume").removeEventListener("animationend", imageAppear);
+}
+
+function imageAppear1() {
+    console.log("imageAppear1");
+
+    document.querySelector("#parfume1").classList.add("move");
+    document.querySelector("#parfume1").addEventListener("animationend", sidenVises);
+    document.querySelector("#bluecloud_container").classList.remove("move");
+
+    document.querySelector("#bluecloud_container").removeEventListener("animationend", sidenVises);
 }
 
 function toggleMenu() {
@@ -43,13 +56,37 @@ function toggleMenu() {
 
 function perfumeScreen() {
     console.log("perfumeScreen");
-    document.getElementById("products.html").innerHTML;
-    document.querySelector("#info_skaerm1").classList.add("hidden");
-    document.querySelector("#pink").addEventListener("click", infoSkaerm1);
+    if (document.getElementById("parfume")) {
+
+        if (document.getElementById("pink")) {
+            document.querySelector("#info_skaerm1").classList.add("hidden");
+            document.querySelector("#pink").addEventListener("click", infoSkaerm1);
+        }
+    }
 }
 
 function infoSkaerm1() {
     console.log("infoSkaerm1");
     document.querySelector("#info_skaerm1").classList.remove("hidden");
     document.querySelector("#kryds1").addEventListener("click", perfumeScreen);
+}
+
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function (event) {
+    if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+            }
+        }
+    }
 }
