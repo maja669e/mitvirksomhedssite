@@ -562,11 +562,12 @@ header nav a:link {
 
 #parfume {
     position: absolute;
-    width: 26vw;
-    height: 23vw;
+    width: 25vw;
+    height: 22vw;
     background-image: url(showcase_image/molecule.png);
     z-index: 4;
     left: -25vw;
+    top: 15vw;
 }
 
 .move {
@@ -580,10 +581,12 @@ header nav a:link {
 @keyframes move_kf {
     0% {
         /*        left: -25vw;*/
+        top: 8vw;
     }
 
     100% {
         left: 30vw;
+        top: 8vw;
     }
 }
 
