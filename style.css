@@ -75,41 +75,6 @@ a:hover {
 
 }
 
-#about #story_wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-
-#about #text {
-    flex-grow: 2;
-    flex-basis: 200px;
-    padding: 2vw;
-    text-align: center;
-    line-height: 26px;
-}
-
-#about #picture {
-    flex-grow: 1;
-    flex-basis: 200px;
-    padding: 3vw 2vw 2vw 4vw;
-}
-
-#about #portrait {
-    background-image: url(about_img/Zarko_portrait3.png);
-    background-size: 100%;
-    height: 510px;
-    width: 340px;
-    border-radius: 1%;
-}
-
-#about #video_container {
-    text-align: center;
-}
-
-#about #zarkovideo {
-    outline: none;
-}
 
 > > > > > > > origin/master .hidden_menu {
     visibility: hidden;
@@ -147,7 +112,7 @@ a:hover {
     margin: 0vw 12vw;
 }
 
-#about #sectionwrapper {
+#about #story_wrapper {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -158,23 +123,30 @@ a:hover {
     flex-basis: 200px;
     padding: 2vw;
     text-align: center;
+    line-height: 26px;
 }
 
 #about #picture {
     flex-grow: 1;
     flex-basis: 200px;
-    padding: 4vw 2vw 2vw 4vw;
+    padding: 3vw 2vw 2vw 4vw;
+
 }
 
-#about #img {
-    background-image: url(about_img/zarko_portraet.jpg);
+#about #portrait {
+    background-image: url(about_img/Zarko_portrait3.png);
     background-size: 100%;
-    height: 400px;
-    width: 299.92px;
+    height: 510px;
+    width: 340px;
     border-radius: 1%;
 }
 
+#about #video_container {
+    text-align: center;
+}
+
 #about #zarkovideo {
+    outline: none;
     width: 800px;
     height: 450px;
 }
@@ -186,10 +158,16 @@ a:hover {
 
 @media only screen and (max-width: 700px) {
 
-    #about #picture,
+
     #about #text {
         padding:
             1vw;
+    }
+
+    #about #picture {
+        padding: 1vw;
+        position: relative;
+        left: 15vw;
     }
 
     #about {
