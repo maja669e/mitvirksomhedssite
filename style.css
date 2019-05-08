@@ -576,26 +576,21 @@ header nav a:link {
 
 #bluecloud_container {
     position: absolute;
-    width: 25vw;
-    height: 22vw;
-    top: 32vw;
-    left: 42vw;
-    background-image: url(showcase_image/pinkmolecule.png);
-    z-index: 2;
+    width: 24vw;
+    height: 21vw;
+    background-image: url(showcase_image/parfume2.png);
+    z-index: 4;
+    left: -25vw;
 }
-
-
 
 #parfume {
     position: absolute;
-    width: 25vw;
-    height: 22vw;
-    top: 32vw;
-    left: 42vw;
+    width: 26vw;
+    height: 23vw;
     background-image: url(showcase_image/molecule.png);
-    z-index: 2;
+    z-index: 4;
+    left: -25vw;
 }
-
 
 .move {
     animation-name: move_kf;
@@ -607,36 +602,15 @@ header nav a:link {
 
 @keyframes move_kf {
     0% {
-        left: 20vw;
-    }
-
-    100% {
-        left: 64vw;
-    }
-}
-
-
-/*
-.move {
-    animation-name: move_kf;
-    animation-duration: 3s;
-    animation-iteration-count: 1;
-    animation-timing-function: linear;
-    animation-fill-mode: both;
-}
-
-@keyframes move_kf {
-    0% {
-        left: -25vw;
+        /*        left: -25vw;*/
     }
 
     100% {
         left: 30vw;
     }
 }
-*/
 
-#products .sectionwrapper {
+*/ #products .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
     margin-left: 100px;
