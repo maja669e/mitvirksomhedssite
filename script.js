@@ -58,8 +58,8 @@ function toggleMenu() {
 function perfumeScreen() {
     console.log("perfumeScreen");
 
-    if (document.getElementById("pink")) {
-        document.querySelector("#info_skaerm1").classList.add("hidden");
+    if (document.getElementById("products.html")) {
+        document.querySelector("#info_skaerm1").classList.add("image_hidden");
         document.querySelector("#pink").addEventListener("click", infoSkaerm1);
     }
 }
@@ -67,7 +67,7 @@ function perfumeScreen() {
 
 function infoSkaerm1() {
     console.log("infoSkaerm1");
-    document.querySelector("#info_skaerm1").classList.remove("hidden");
+    document.querySelector("#info_skaerm1").classList.remove("image_hidden");
     document.querySelector("#kryds1").addEventListener("click", perfumeScreen);
 }
 
