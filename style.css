@@ -476,22 +476,15 @@ header nav a:link {
 .contact_image_facebook {
     position: relative;
     background-size: 100%;
-<<<<<<< HEAD
-    left: 45vw;
-=======
     <<<<<<< HEAD left: 45vw;
+    =======<<<<<<< HEAD left: 45vw;
     top: 1vw;
     =======<<<<<<< HEAD left: 45vw;
->>>>>>> origin/master
-    top: 1vw;
+    > > > > > > > origin/master top: 1vw;
     left: 45vw;
     top: 1vw;
 
-<<<<<<< HEAD
-    =======
-=======
-    ======= > > > > > > > origin/master
->>>>>>> origin/master
+    <<<<<<< HEAD===================== > > > > > > > origin/master > > > > > > > origin/master
 }
 
 .contact_image_insta {
@@ -515,30 +508,23 @@ header nav a:link {
     position: relative;
     background-size: 100%;
     left: 45vw;
-<<<<<<< HEAD
-    top: 1vw;
-    > > > > > > > origin/master
-=======
-    <<<<<<< HEAD top: 6vw;
+    <<<<<<< HEAD top: 1vw;
+    > > > > > > > origin/master=======<<<<<<< HEAD top: 6vw;
     margin: 0;
     =======top: 1vw;
-    > > > > > > > origin/master > > > > > > > origin/master
->>>>>>> origin/master
+    > > > > > > > origin/master > > > > > > > origin/master > > > > > > > origin/master
 }
 
 #image_insta {
     position: relative;
     background-size: 100%;
     left: 50vw;
-<<<<<<< HEAD
-    top: -3.8vw;
+    <<<<<<< HEAD top: -3.8vw;
 
-=======
-    <<<<<<< HEAD top: 0.7vw;
+    =======<<<<<<< HEAD top: 0.7vw;
     margin: 0;
     =======top: -3.8vw;
-    <<<<<<< HEAD
->>>>>>> origin/master
+    <<<<<<< HEAD > > > > > > > origin/master
 }
 
 
@@ -558,11 +544,7 @@ top: -3.8vw;
 #social {
     display: flex;
     justify-content: center;
-<<<<<<< HEAD
-
-=======
-    ======= > > > > > > > origin/master > > > > > > > origin/master
->>>>>>> origin/master
+    <<<<<<< HEAD============== > > > > > > > origin/master > > > > > > > origin/master > > > > > > > origin/master
 }
 
 .bottom_footer p {
@@ -637,7 +619,7 @@ top: -3.8vw;
     display: none;
     position: absolute;
     background-color: rgb(255, 239, 224);
-    min-width: 160px;
+    min-width: 145px;
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -645,7 +627,7 @@ top: -3.8vw;
 
 .dropdown-content a {
     color: black;
-    padding: 4px 4px;
+    padding: 0px 3px;
     text-decoration: none;
     display: block;
 }
@@ -1168,7 +1150,7 @@ top: -3.8vw;
     box-sizing: border-box;
     font-size: 62.5%;
 
-    margin: 0.5vw;
+
 }
 
 .container_press {
