@@ -116,10 +116,9 @@ hidden {
 }
 
 #side_menu header {
-    position: absolute;
+    /*position: absolute;*/
     top: 35px;
     left: 300px;
-
 }
 
 /* visited link */
@@ -138,7 +137,7 @@ hidden {
 }
 
 #side_menu header {
-    position: absolute;
+    /*position: absolute;*/
 }
 
 #side_menu header nav {
@@ -633,43 +632,48 @@ top: -3.8vw;
     background-color: #ddd;
 }
 
+.show {
+    display: block;
+}
+
 #c1_text {
-    width: 100%;
-    padding: 50px 0;
+    z-index: 10;
+    height: 0vw;
+    background-color: white;
+    pointer-events: none;
     text-align: center;
-    margin-top: 20px;
 }
 
 #c2_text {
-    width: 100%;
-    padding: 50px 0;
+    z-index: 10;
+    height: 0vw;
+    background-color: white;
+    pointer-events: none;
     text-align: center;
-    margin-top: 20px;
 }
 
 #c3_text {
-    width: 100%;
-    padding: 50px 0;
+    z-index: 10;
+    height: 0vw;
+    background-color: white;
+    pointer-events: none;
     text-align: center;
-    margin-top: 20px;
 }
 
 #c4_text {
-    width: 100%;
-    padding: 50px 0;
+    z-index: 10;
+    height: 0vw;
+    background-color: white;
+    pointer-events: none;
     text-align: center;
-    margin-top: 20px;
 }
 
 #c5_text {
-    width: 100%;
-    padding: 50px 0;
+    z-index: 10;
+    height: 0vw;
+    background-color: white;
+    pointer-events: none;
     text-align: center;
-    margin-top: 20px;
-}
-
-.show {
-    display: block;
 }
 
 #work {
@@ -798,8 +802,7 @@ top: -3.8vw;
     height: 30vw;
     width: 28vw;
     background-color: white;
-<<<<<<< HEAD
-    pointer-events: none;
+    <<<<<<< HEAD pointer-events: none;
     top: 8vw;
 }
 
@@ -944,9 +947,7 @@ top: -3.8vw;
     background-color: white;
     pointer-events: none;
     top: 95vw;
-=======
-
->>>>>>> origin/master
+    ======= > > > > > > > origin/master
 }
 
 #kryds1 {
