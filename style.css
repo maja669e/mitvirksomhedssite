@@ -85,11 +85,6 @@ a:hover {
     visibility: hidden;
 }
 
-hidden {
-    visibility: hidden;
-}
-
-
 #menuknap {
     display: inline-block;
     cursor: pointer;
@@ -123,8 +118,8 @@ hidden {
     /*position: absolute;*/
     top: 35px;
     left: 300px;
-    <<<<<<< HEAD z-index: 100;
-    ======= > > > > > > > origin/master
+    z-index: 100;
+
 }
 
 /* visited link */
@@ -482,13 +477,18 @@ header nav a:link {
 .contact_image_facebook {
     position: relative;
     background-size: 100%;
-    left: 45vw;
-    left: 45vw;
-    top: 1vw;
+    <<<<<<< HEAD left: 45vw;
     left: 45vw;
     top: 1vw;
     left: 45vw;
+    =======<<<<<<< HEAD <<<<<<< HEAD left: 45vw;
+    =======<<<<<<< HEAD left: 45vw;
+    > > > > > > > origin/master top: 1vw;
+    left: 45vw;
     top: 1vw;
+    <<<<<<< HEAD=======<<<<<<< HEAD===================== > > > > > > > origin/master > > > > > > > origin/master=======left: 45vw;
+    top: 1vw;
+    > > > > > > > origin/master > > > > > > > origin/master
 }
 
 .contact_image_insta {
@@ -498,38 +498,42 @@ header nav a:link {
     top: -4.3vw;
 }
 
-
-
-#social {}
-
 #contact_social {
     display: flex;
     justify-content: center;
 }
 
-
 #image_facebook {
     position: relative;
     background-size: 100%;
     left: 45vw;
-    top: 1vw;
+    <<<<<<< HEAD top: 1vw;
     top: 6vw;
     margin: 0;
     top: 1vw;
 
+    =======<<<<<<< HEAD <<<<<<< HEAD top: 1vw;
+    > > > > > > > origin/master=======<<<<<<< HEAD top: 6vw;
+    margin: 0;
+    =======top: 1vw;
+    > > > > > > > origin/master > > > > > > > origin/master > > > > > > > origin/master=======top: 1vw;
+    top: 6vw;
+    margin: 0;
+    top: 1vw;
+    > > > > > > > origin/master > > > > > > > origin/master
 }
 
 #image_insta {
     position: relative;
     background-size: 100%;
     left: 50vw;
-    top: 0.7vw;
+    <<<<<<< HEAD top: 0.7vw;
     margin: 0;
     top: -3.8vw;
 
     top: -3.8vw;
-
-    top: 0.7vw;
+    =======<<<<<<< HEAD <<<<<<< HEAD top: -3.8vw;
+    > > > > > > > origin/master top: 0.7vw;
     margin: 0;
     top: -3.8vw;
 
@@ -552,6 +556,11 @@ top: -3.8vw;
 #social {
     display: flex;
     justify-content: center;
+    <<<<<<< HEAD=======<<<<<<< HEAD============== > > > > > > > origin/master > > > > > > > origin/master > > > > > > > origin/master=======top: -3.8vw;
+    top: 0.7vw;
+    margin: 0;
+    top: -3.8vw;
+    > > > > > > > origin/master > > > > > > > origin/master
 }
 
 .bottom_footer p {
@@ -1644,4 +1653,17 @@ top: -3.8vw;
     grid-column-end: 10;
     grid-row-start: 45;
     grid-row-end: 46;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .gallery {
+
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: repeat(4, 10vw);
+        grid-gap: 1px;
+
+    }
+
 }
