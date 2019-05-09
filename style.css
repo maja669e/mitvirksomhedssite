@@ -67,6 +67,8 @@ a {
     color: #5c5c5c;
 }
 
+
+
 a:hover {
     color: black;
 }
@@ -118,10 +120,13 @@ hidden {
 }
 
 #side_menu header {
-    position: absolute;
+    /*position: absolute;*/
     top: 35px;
     left: 300px;
+<<<<<<< HEAD
     z-index: 100;
+=======
+>>>>>>> origin/master
 }
 
 /* visited link */
@@ -140,7 +145,7 @@ hidden {
 }
 
 #side_menu header {
-    position: absolute;
+    /*position: absolute;*/
 }
 
 #side_menu header nav {
@@ -476,20 +481,21 @@ header nav a:link {
     text-align: center;
 }
 
-#contact_image_facebook {
+.contact_image_facebook {
     position: relative;
     background-size: 100%;
     <<<<<<< HEAD left: 45vw;
-    top: 1vw;
     =======<<<<<<< HEAD left: 45vw;
     top: 1vw;
+    =======<<<<<<< HEAD left: 45vw;
+    > > > > > > > origin/master top: 1vw;
     left: 45vw;
     top: 1vw;
 
-    ======= > > > > > > > origin/master
+    <<<<<<< HEAD===================== > > > > > > > origin/master > > > > > > > origin/master
 }
 
-#contact_image_insta {
+.contact_image_insta {
     position: relative;
     background-size: 100%;
     left: 50vw;
@@ -510,20 +516,30 @@ header nav a:link {
     position: relative;
     background-size: 100%;
     left: 45vw;
-    <<<<<<< HEAD top: 6vw;
+    <<<<<<< HEAD top: 1vw;
+    > > > > > > > origin/master=======<<<<<<< HEAD top: 6vw;
     margin: 0;
     =======top: 1vw;
-    > > > > > > > origin/master > > > > > > > origin/master
+    > > > > > > > origin/master > > > > > > > origin/master > > > > > > > origin/master
 }
 
 #image_insta {
     position: relative;
     background-size: 100%;
     left: 50vw;
+<<<<<<< HEAD
     top: 0.7vw;
     margin: 0;
     top: -3.8vw;
 
+=======
+    <<<<<<< HEAD top: -3.8vw;
+
+    =======<<<<<<< HEAD top: 0.7vw;
+    margin: 0;
+    =======top: -3.8vw;
+    <<<<<<< HEAD > > > > > > > origin/master
+>>>>>>> origin/master
 }
 
 
@@ -543,6 +559,10 @@ top: -3.8vw;
 #social {
     display: flex;
     justify-content: center;
+<<<<<<< HEAD
+=======
+    <<<<<<< HEAD============== > > > > > > > origin/master > > > > > > > origin/master > > > > > > > origin/master
+>>>>>>> origin/master
 }
 
 .bottom_footer p {
@@ -558,7 +578,7 @@ top: -3.8vw;
     margin: 0vw 12vw;
 }
 
-#contact #sectionwrapper {
+#contact .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -583,6 +603,13 @@ top: -3.8vw;
     flex-basis: 200px;
     padding: 2vw;
     text-align: center;
+}
+
+.contact_a {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    text-transform: lowercase;
+    color: #5c5c5c;
 }
 
 .dropbtn {
@@ -610,7 +637,7 @@ top: -3.8vw;
     display: none;
     position: absolute;
     background-color: rgb(255, 239, 224);
-    min-width: 160px;
+    min-width: 145px;
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -618,7 +645,7 @@ top: -3.8vw;
 
 .dropdown-content a {
     color: black;
-    padding: 4px 4px;
+    padding: 0px 3px;
     text-decoration: none;
     display: block;
 }
@@ -630,6 +657,46 @@ top: -3.8vw;
 .show {
     display: block;
 }
+
+#c1_text {
+    z-index: 10;
+    height: 0vw;
+    background-color: white;
+    pointer-events: none;
+    text-align: center;
+}
+
+/*#c2_text {
+    z-index: 10;
+    height: 0vw;
+    background-color: white;
+    pointer-events: none;
+    text-align: center;
+}
+
+#c3_text {
+    z-index: 10;
+    height: 0vw;
+    background-color: white;
+    pointer-events: none;
+    text-align: center;
+}
+
+#c4_text {
+    z-index: 10;
+    height: 0vw;
+    background-color: white;
+    pointer-events: none;
+    text-align: center;
+}
+
+#c5_text {
+    z-index: 10;
+    height: 0vw;
+    background-color: white;
+    pointer-events: none;
+    text-align: center;
+}*/
 
 #work {
     background-image: url(showcase_image/work.jpg);
@@ -757,7 +824,11 @@ top: -3.8vw;
     height: 360px;
     width: 340px;
     background-color: white;
+<<<<<<< HEAD
     pointer-events: none;
+=======
+    <<<<<<< HEAD pointer-events: none;
+>>>>>>> origin/master
     top: 8vw;
 }
 
@@ -902,6 +973,10 @@ top: -3.8vw;
     background-color: white;
     pointer-events: none;
     top: 95vw;
+<<<<<<< HEAD
+=======
+    ======= > > > > > > > origin/master
+>>>>>>> origin/master
 }
 
 #kryds1 {
@@ -1158,4 +1233,434 @@ top: -3.8vw;
             left: 100vw;
         }
     }
+}
+
+* {
+    box-sizing: border-box;
+    font-size: 62.5%;
+
+
+}
+
+.container_press {
+    position: relative;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(16, 13vw);
+    grid-gap: 8px;
+    position: absolute
+}
+
+/*
+.container {
+    width: 80%;
+    margin: 2rem auto;
+}
+*/
+
+
+.gallery_img {
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.5s linear 0s;
+    backface-visibility: hidden;
+    /*    display: block;*/
+}
+
+
+
+
+
+/*
+.gallery_item--1:hover .text {
+    opacity: 1;
+}
+*/
+
+
+
+.gallery_img:hover {
+    filter: blur(10px);
+    /*    display: block;*/
+}
+
+.gallery_item--3:hover .info_magasin {
+    opacity: 1;
+    /*    display: block;*/
+}
+
+
+
+
+.gallery_item--1 {
+
+
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.gallery_item--2 {
+
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+
+.gallery_item--3 {
+    grid-column-start: 5;
+    grid-column-end: 10;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+
+.gallery_item--4 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.gallery_item--5 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 9;
+}
+
+.gallery_item--5 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 9;
+}
+
+.gallery_item--6 {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 6;
+    grid-row-end: 9;
+}
+
+.gallery_item--7 {
+    grid-column-start: 7;
+    grid-column-end: 10;
+    grid-row-start: 6;
+    grid-row-end: 9;
+}
+
+.gallery_item--8 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 9;
+    grid-row-end: 11;
+}
+
+.gallery_item--9 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 11;
+    grid-row-end: 13;
+}
+
+.gallery_item--10 {
+    grid-column-start: 3;
+    grid-column-end: 7;
+    grid-row-start: 9;
+    grid-row-end: 13;
+}
+
+.gallery_item--11 {
+    grid-column-start: 7;
+    grid-column-end: 10;
+    grid-row-start: 9;
+    grid-row-end: 11;
+}
+
+.gallery_item--12 {
+    grid-column-start: 7;
+    grid-column-end: 10;
+    grid-row-start: 11;
+    grid-row-end: 13;
+}
+
+.gallery_item--13 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 13;
+    grid-row-end: 17;
+}
+
+.gallery_item--14 {
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 13;
+    grid-row-end: 15;
+}
+
+.gallery_item--15 {
+    grid-column-start: 8;
+    grid-column-end: 10;
+    grid-row-start: 13;
+    grid-row-end: 15;
+}
+
+.gallery_item--16 {
+    grid-column-start: 6;
+    grid-column-end: 10;
+    grid-row-start: 15;
+    grid-row-end: 19;
+}
+
+.gallery_item--17 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 17;
+    grid-row-end: 22;
+}
+
+.gallery_item--18 {
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 19;
+    grid-row-end: 21;
+}
+
+.gallery_item--19 {
+    grid-column-start: 8;
+    grid-column-end: 10;
+    grid-row-start: 19;
+    grid-row-end: 21;
+}
+
+.gallery_item--20 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 22;
+    grid-row-end: 25;
+}
+
+.gallery_item--21 {
+    grid-column-start: 6;
+    grid-column-end: 10;
+    grid-row-start: 21;
+    grid-row-end: 25;
+}
+
+.gallery_item--22 {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 22;
+    grid-row-end: 23;
+}
+
+.gallery_item--23 {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 23;
+    grid-row-end: 25;
+}
+
+.gallery_item--24 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 25;
+    grid-row-end: 29;
+}
+
+.gallery_item--25 {
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 25;
+    grid-row-end: 27;
+}
+
+.gallery_item--26 {
+    grid-column-start: 8;
+    grid-column-end: 10;
+    grid-row-start: 25;
+    grid-row-end: 27;
+}
+
+.gallery_item--27 {
+    grid-column-start: 6;
+    grid-column-end: 10;
+    grid-row-start: 27;
+    grid-row-end: 29;
+}
+
+.gallery_item--28 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 29;
+    grid-row-end: 31;
+}
+
+.gallery_item--29 {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 29;
+    grid-row-end: 30;
+}
+
+.gallery_item--30 {
+    grid-column-start: 6;
+    grid-column-end: 10;
+    grid-row-start: 29;
+    grid-row-end: 31;
+}
+
+.gallery_item--31 {
+    grid-column-start: 6;
+    grid-column-end: 10;
+    grid-row-start: 31;
+    grid-row-end: 32;
+}
+
+.gallery_item--32 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 31;
+    grid-row-end: 33;
+}
+
+.gallery_item--33 {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 30;
+    grid-row-end: 30;
+}
+
+.gallery_item--34 {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 30;
+    grid-row-end: 30;
+}
+
+.gallery_item--35 {
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 32;
+    grid-row-end: 33;
+}
+
+.gallery_item--36 {
+    grid-column-start: 8;
+    grid-column-end: 10;
+    grid-row-start: 32;
+    grid-row-end: 33;
+}
+
+.gallery_item--37 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 33;
+    grid-row-end: 35;
+}
+
+.gallery_item--38 {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 33;
+    grid-row-end: 35;
+}
+
+.gallery_item--39 {
+    grid-column-start: 7;
+    grid-column-end: 10;
+    grid-row-start: 33;
+    grid-row-end: 35;
+}
+
+.gallery_item--40 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 35;
+    grid-row-end: 39;
+}
+
+.gallery_item--41 {
+    grid-column-start: 7;
+    grid-column-end: 10;
+    grid-row-start: 35;
+    grid-row-end: 37;
+}
+
+.gallery_item--42 {
+    grid-column-start: 7;
+    grid-column-end: 10;
+    grid-row-start: 37;
+    grid-row-end: 40;
+}
+
+.gallery_item--43 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 39;
+    grid-row-end: 42;
+}
+
+.gallery_item--44 {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 39;
+    grid-row-end: 42;
+}
+
+.gallery_item--45 {
+    grid-column-start: 7;
+    grid-column-end: 10;
+    grid-row-start: 40;
+    grid-row-end: 42;
+}
+
+.gallery_item--46 {
+    grid-column-start: 4;
+    grid-column-end: 10;
+    grid-row-start: 42;
+    grid-row-end: 45;
+}
+
+.gallery_item--47 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 42;
+    grid-row-end: 43;
+}
+
+.gallery_item--48 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 43;
+    grid-row-end: 45;
+}
+
+.gallery_item--49 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 45;
+    grid-row-end: 46;
+}
+
+.gallery_item--50 {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 45;
+    grid-row-end: 46;
+}
+
+.gallery_item--51 {
+    grid-column-start: 7;
+    grid-column-end: 10;
+    grid-row-start: 45;
+    grid-row-end: 46;
 }
