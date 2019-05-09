@@ -1,4 +1,4 @@
-window.addEventListener("load", sidenVises);
+window.addEventListener("load", toggleMenu);
 
 function sidenVises() {
     console.log("sidenVises");
@@ -6,7 +6,7 @@ function sidenVises() {
 
 }
 document.querySelector("#menuknap").addEventListener("click", toggleMenu);
-}
+
 
 
 
@@ -23,6 +23,8 @@ function toggleMenu() {
         document.querySelector("#menuknap").textContent = "X";
     }
 }
+
+perfumeScreen();
 
 
 function perfumeScreen() {
