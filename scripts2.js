@@ -30,9 +30,9 @@ perfumeScreen();
 function perfumeScreen() {
     console.log("perfumeScreen");
 
-    if (document.getElementById("pink")) {
+    if (document.getElementById("parfume1")) {
         document.querySelector("#info_skaerm1").classList.add("hidden");
-        document.querySelector("#pink").addEventListener("click", infoSkaerm1);
+        document.querySelector("#parfume1").addEventListener("click", infoSkaerm1);
     }
 }
 
