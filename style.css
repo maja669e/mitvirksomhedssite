@@ -79,6 +79,11 @@ a:hover {
     visibility: hidden;
 }
 
+hidden {
+    visibility: hidden;
+}
+
+
 #menuknap {
     display: inline-block;
     cursor: pointer;
@@ -461,14 +466,27 @@ header nav a:link {
     color: white;
 }
 
-#image_facebook {
+.contact_footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #e2d5c7;
+    color: white;
+}
+
+.contact_footer p {
+    text-align: center;
+}
+
+#contact_image_facebook {
     position: relative;
     background-size: 100%;
     left: 45vw;
     top: 1vw;
 }
 
-#image_insta {
+#contact_image_insta {
     position: relative;
     background-size: 100%;
     left: 50vw;
@@ -477,15 +495,34 @@ header nav a:link {
 
 
 
-#social {
+#social {}
+
+#contact_social {
     display: flex;
     justify-content: center;
 }
 
-.bottom_footer p {
-    text-align: center;
+
+#image_facebook {
+    position: relative;
+    background-size: 100%;
+    left: 45vw;
+    top: 6vw;
+    margin: 0;
 }
 
+#image_insta {
+    position: relative;
+    background-size: 100%;
+    left: 50vw;
+    top: 0.7vw;
+    margin: 0;
+}
+
+.bottom_footer p {
+    text-align: center;
+    margin: 0;
+}
 
 .image_hidden {
     visibility: hidden;
@@ -524,7 +561,7 @@ header nav a:link {
 
 .dropbtn {
     border-radius: 10px;
-    background-color: rgba(219, 199, 180, 0.17);
+    background-color: rgb(255, 239, 224);
     color: #777777;
     padding: 10px;
     font-size: 15px;
@@ -534,7 +571,7 @@ header nav a:link {
 
 .dropbtn:hover,
 .dropbtn:focus {
-    background-color: rgba(230, 191, 154, 0.17);
+    background-color: #e2d5c7;
 }
 
 .dropdown {
@@ -543,9 +580,10 @@ header nav a:link {
 }
 
 .dropdown-content {
+    border-radius: 10px;
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: rgb(255, 239, 224);
     min-width: 160px;
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -688,7 +726,7 @@ header nav a:link {
     width: 100%;
     height: 100%;
     position: absolute;
-    z-index: 3;
+    z-index: 10;
     background-image: url(info_bokse/pink.svg);
     height: 30vw;
     width: 28vw;
@@ -787,6 +825,44 @@ header nav a:link {
         font-size: 14px;
     }
 
+    #showcase .sectionwrapper {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 30px;
+        margin-right: 30px;
+        padding: 0;
+    }
+
+    #showcase #conceptfilm {
+        width: 440px;
+        height: 250px;
+        text-align: center;
+    }
+
+    #gazelle {
+        width: 40vw;
+        height: 21vw;
+        margin: 10px;
+    }
+
+    #beauty {
+        width: 40vw;
+        height: 21vw;
+        margin: 10px;
+    }
+
+    #show {
+        width: 40vw;
+        height: 23vw;
+        margin: 10px;
+    }
+
+    #work {
+        width: 40vw;
+        height: 23vw;
+        margin: 10px;
+    }
+
     #box {
         height: 350px;
         width: 350px;
@@ -840,7 +916,7 @@ header nav a:link {
 
     @keyframes move_kf {
         0% {
-            /*        left: -25vw;*/
+            /*        left: -25vw; */
         }
 
         100% {

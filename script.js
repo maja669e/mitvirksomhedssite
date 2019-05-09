@@ -9,6 +9,7 @@ function sidenVises() {
 
     document.querySelector("#parfume1").removeEventListener("animationend", sidenVises);
 
+
     if (document.getElementById("parfume")) {
         document.querySelector("#parfume").classList.add("move");
 
@@ -56,14 +57,13 @@ function toggleMenu() {
 
 function perfumeScreen() {
     console.log("perfumeScreen");
-    if (document.getElementById("parfume")) {
 
-        if (document.getElementById("pink")) {
-            document.querySelector("#info_skaerm1").classList.add("hidden");
-            document.querySelector("#pink").addEventListener("click", infoSkaerm1);
-        }
+    if (document.getElementById("pink")) {
+        document.querySelector("#info_skaerm1").classList.add("hidden");
+        document.querySelector("#pink").addEventListener("click", infoSkaerm1);
     }
 }
+
 
 function infoSkaerm1() {
     console.log("infoSkaerm1");
