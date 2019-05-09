@@ -81,11 +81,6 @@ a:hover {
     visibility: hidden;
 }
 
-hidden {
-    visibility: hidden;
-}
-
-
 #menuknap {
     display: inline-block;
     cursor: pointer;
