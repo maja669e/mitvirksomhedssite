@@ -2,19 +2,6 @@ window.addEventListener("load", sidenVises);
 
 function sidenVises() {
     console.log("Siden vises");
-
-    document.querySelector("#info_skaerm1").classList.add("hidden");
-    document.querySelector("#info_skaerm2").classList.add("hidden");
-    document.querySelector("#info_skaerm3").classList.add("hidden");
-    document.querySelector("#info_skaerm4").classList.add("hidden");
-    document.querySelector("#info_skaerm5").classList.add("hidden");
-    document.querySelector("#info_skaerm6").classList.add("hidden");
-    document.querySelector("#info_skaerm7").classList.add("hidden");
-    document.querySelector("#info_skaerm8").classList.add("hidden");
-    document.querySelector("#info_skaerm9").classList.add("hidden");
-    document.querySelector("#info_skaerm10").classList.add("hidden");
-    document.querySelector("#info_skaerm11").classList.add("hidden");
-    document.querySelector("#info_skaerm12").classList.add("hidden");
     document.querySelector("#parfume1_container").addEventListener("click", infoSkaerm1);
     document.querySelector("#parfume2_container").addEventListener("click", infoSkaerm2);
     document.querySelector("#parfume3_container").addEventListener("click", infoSkaerm3);
