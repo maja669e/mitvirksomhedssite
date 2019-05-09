@@ -754,6 +754,7 @@ top: -3.8vw;
     height: 30vw;
     width: 28vw;
     background-color: white;
+<<<<<<< HEAD
     pointer-events: none;
     top: 8vw;
 }
@@ -899,6 +900,9 @@ top: -3.8vw;
     background-color: white;
     pointer-events: none;
     top: 95vw;
+=======
+
+>>>>>>> origin/master
 }
 
 #kryds1 {
