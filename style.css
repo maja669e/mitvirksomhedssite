@@ -63,6 +63,8 @@ a {
     color: #5c5c5c;
 }
 
+
+
 a:hover {
     color: black;
 }
@@ -478,12 +480,12 @@ header nav a:link {
     text-align: center;
 }
 
-#contact_image_facebook {
+.contact_image_facebook {
     position: relative;
     background-size: 100%;
 }
 
-#contact_image_insta {
+.contact_image_insta {
     position: relative;
     background-size: 100%;
 }
@@ -520,7 +522,7 @@ header nav a:link {
     margin: 0vw 12vw;
 }
 
-#contact #sectionwrapper {
+#contact .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -545,6 +547,13 @@ header nav a:link {
     flex-basis: 200px;
     padding: 2vw;
     text-align: center;
+}
+
+.contact_a {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    text-transform: lowercase;
+    color: #5c5c5c;
 }
 
 .dropbtn {
@@ -587,6 +596,41 @@ header nav a:link {
 
 .dropdown a:hover {
     background-color: #ddd;
+}
+
+#c1_text {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#c2_text {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#c3_text {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#c4_text {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#c5_text {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    margin-top: 20px;
 }
 
 .show {
