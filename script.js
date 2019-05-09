@@ -3,6 +3,8 @@ window.addEventListener("load", sidenVises);
 function sidenVises() {
     console.log("sidenVises");
 
+    document.querySelector("#menuknap").addEventListener("click", toggleMenu);
+
     document.querySelector("#bluecloud_container").classList.remove("move");
     document.querySelector("#bluecloud_container").removeEventListener("animationend", sidenVises);
     document.querySelector("#parfume1").classList.remove("move");

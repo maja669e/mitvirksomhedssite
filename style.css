@@ -2,6 +2,10 @@ html {
     font-size: 100%;
 }
 
+index body {
+    background-color: black;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -117,7 +121,7 @@ hidden {
     position: absolute;
     top: 35px;
     left: 300px;
-
+    z-index: 100;
 }
 
 /* visited link */
@@ -434,8 +438,8 @@ header nav a:link {
 
 #splash_menu #menuknap {
     position: absolute;
-    left: 75vw;
-    top: 0vw;
+    left: 85vw;
+    top: 1vw;
 }
 
 #showcase .bottom {
@@ -516,10 +520,10 @@ header nav a:link {
     position: relative;
     background-size: 100%;
     left: 50vw;
-    <<<<<<< HEAD top: 0.7vw;
+    top: 0.7vw;
     margin: 0;
-    =======top: -3.8vw;
-    <<<<<<< HEAD
+    top: -3.8vw;
+
 }
 
 
@@ -539,7 +543,6 @@ top: -3.8vw;
 #social {
     display: flex;
     justify-content: center;
-    ======= > > > > > > > origin/master > > > > > > > origin/master
 }
 
 .bottom_footer p {
@@ -751,10 +754,9 @@ top: -3.8vw;
     position: absolute;
     z-index: 10;
     background-image: url(info_bokse/pink.svg);
-    height: 30vw;
-    width: 28vw;
+    height: 360px;
+    width: 340px;
     background-color: white;
-<<<<<<< HEAD
     pointer-events: none;
     top: 8vw;
 }
@@ -765,11 +767,11 @@ top: -3.8vw;
     position: absolute;
     z-index: 10;
     background-image: url(info_bokse/purple.svg);
-    height: 30vw;
-    width: 28vw;
+    height: 360px;
+    width: 340px;
     background-color: white;
     pointer-events: none;
-    top: 35vw;
+    top: 36vw;
 }
 
 #info_skaerm3 {
@@ -778,8 +780,8 @@ top: -3.8vw;
     position: absolute;
     z-index: 10;
     background-image: url(info_bokse/buddha_wood.svg);
-    height: 30vw;
-    width: 28vw;
+    height: 360px;
+    width: 340px;
     background-color: white;
     pointer-events: none;
     top: 65vw;
@@ -791,8 +793,8 @@ top: -3.8vw;
     position: absolute;
     z-index: 10;
     background-image: url(info_bokse/blue_cloud.svg);
-    height: 30vw;
-    width: 28vw;
+    height: 360px;
+    width: 340px;
     background-color: white;
     pointer-events: none;
     top: 95vw;
@@ -804,8 +806,8 @@ top: -3.8vw;
     position: absolute;
     z-index: 10;
     background-image: url(info_bokse/cloud_red.svg);
-    height: 30vw;
-    width: 28vw;
+    height: 360px;
+    width: 340px;
     background-color: white;
     pointer-events: none;
     top: 8vw;
@@ -817,11 +819,11 @@ top: -3.8vw;
     position: absolute;
     z-index: 10;
     background-image: url(info_bokse/el_discrete.svg);
-    height: 30vw;
-    width: 28vw;
+    height: 360px;
+    width: 340px;
     background-color: white;
     pointer-events: none;
-    top: 35vw;
+    top: 36vw;
 }
 
 #info_skaerm7 {
@@ -830,8 +832,8 @@ top: -3.8vw;
     position: absolute;
     z-index: 10;
     background-image: url(info_bokse/inception.svg);
-    height: 30vw;
-    width: 28vw;
+    height: 360px;
+    width: 340px;
     background-color: white;
     pointer-events: none;
     top: 65vw;
@@ -843,8 +845,8 @@ top: -3.8vw;
     position: absolute;
     z-index: 10;
     background-image: url(info_bokse/menage_a_trois.svg);
-    height: 30vw;
-    width: 28vw;
+    height: 360px;
+    width: 340px;
     background-color: white;
     pointer-events: none;
     top: 95vw;
@@ -856,8 +858,8 @@ top: -3.8vw;
     position: absolute;
     z-index: 10;
     background-image: url(info_bokse/molecule_farewelll.svg);
-    height: 30vw;
-    width: 28vw;
+    height: 360px;
+    width: 340px;
     background-color: white;
     pointer-events: none;
     top: 8vw;
@@ -869,11 +871,11 @@ top: -3.8vw;
     position: absolute;
     z-index: 10;
     background-image: url(info_bokse/molecule_love_affair.svg);
-    height: 30vw;
-    width: 28vw;
+    height: 360px;
+    width: 340px;
     background-color: white;
     pointer-events: none;
-    top: 35vw;
+    top: 36vw;
 }
 
 #info_skaerm11 {
@@ -882,8 +884,8 @@ top: -3.8vw;
     position: absolute;
     z-index: 10;
     background-image: url(info_bokse/odd_couture.svg);
-    height: 30vw;
-    width: 28vw;
+    height: 360px;
+    width: 340px;
     background-color: white;
     pointer-events: none;
     top: 65vw;
@@ -895,14 +897,11 @@ top: -3.8vw;
     position: absolute;
     z-index: 10;
     background-image: url(info_bokse/oudish.svg);
-    height: 30vw;
-    width: 28vw;
+    height: 360px;
+    width: 340px;
     background-color: white;
     pointer-events: none;
     top: 95vw;
-=======
-
->>>>>>> origin/master
 }
 
 #kryds1 {
@@ -946,10 +945,25 @@ top: -3.8vw;
 @media only screen and (max-width: 700px) {
     #side_menu header {
         left: 60px;
+        position: fixed;
     }
 
     #side_menu header nav a {
-        font-size: 0.9rem;
+        font-size: 1.5rem;
+
+    }
+
+    #menu {
+        background-color: white;
+        outline: 1px #ba8548 solid;
+    }
+
+    #side_menu header nav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin: 1rem 15rem;
+        text-align: right;
     }
 
     #splash_menu header nav {
@@ -957,10 +971,11 @@ top: -3.8vw;
         flex-direction: column;
         align-items: flex-end;
         margin: 1rem 1.5rem;
+        text-align: right;
     }
 
     #splash_menu header nav a {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         font-family: 'Montserrat', sans-serif;
         margin: 0.1rem 0;
         padding: 0.1rem 0;
@@ -1076,6 +1091,54 @@ top: -3.8vw;
         background-image: url(showcase_image/parfume3.png);
         z-index: 4;
         left: -60vw;
+    }
+
+    #info_skaerm1 {
+        top: 100px
+    }
+
+    #info_skaerm2 {
+        top: 480px
+    }
+
+    #info_skaerm3 {
+        top: 850px
+    }
+
+    #info_skaerm4 {
+        top: 1250px
+    }
+
+    #info_skaerm5 {
+        top: 1600px
+    }
+
+    #info_skaerm6 {
+        top: 1950px
+    }
+
+    #info_skaerm7 {
+        top: 2350px
+    }
+
+    #info_skaerm8 {
+        top: 2700px
+    }
+
+    #info_skaerm9 {
+        top: 3100px;
+    }
+
+    #info_skaerm10 {
+        top: 3450px;
+    }
+
+    #info_skaerm11 {
+        top: 3800px;
+    }
+
+    #info_skaerm12 {
+        top: 4200px;
     }
 
     .move {
