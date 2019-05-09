@@ -264,11 +264,6 @@ hidden {
     padding: 20px;
 }
 
-#cols {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .colaward {
     display: flex;
     flex-direction: row;
@@ -312,8 +307,6 @@ hidden {
     height: 14vw;
     left: 70vw;
 }
-
-
 
 
 #showcase .sectionwrapper {
@@ -482,8 +475,18 @@ header nav a:link {
 #contact_image_facebook {
     position: relative;
     background-size: 100%;
+<<<<<<< HEAD
     left: 45vw;
     top: 1vw;
+=======
+<<<<<<< HEAD
+    left: 45vw;
+    top: 1vw;
+    left: 45vw;
+    top: 1vw;
+
+=======
+>>>>>>> origin/master
 }
 
 #contact_image_insta {
@@ -507,16 +510,47 @@ header nav a:link {
     position: relative;
     background-size: 100%;
     left: 45vw;
+<<<<<<< HEAD
     top: 6vw;
     margin: 0;
+=======
+    top: 1vw;
+>>>>>>> origin/master
+>>>>>>> origin/master
 }
 
 #image_insta {
     position: relative;
     background-size: 100%;
     left: 50vw;
+<<<<<<< HEAD
     top: 0.7vw;
     margin: 0;
+=======
+    top: -3.8vw;
+<<<<<<< HEAD
+}
+
+
+/*left: 1vw;
+    top: 3vw;*/
+}
+
+left: 50vw;
+
+/*left: 1vw;
+    top: 3vw;*/
+}
+
+left: 50vw;
+top: -3.8vw;
+
+#social {
+    display: flex;
+    justify-content: center;
+=======
+>>>>>>> origin/master
+>>>>>>> origin/master
 }
 
 .bottom_footer p {
