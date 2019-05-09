@@ -471,14 +471,35 @@ header nav a:link {
     text-align: center;
 }
 
-#image_facebook {
+#contact_image_facebook {
     position: relative;
     background-size: 100%;
+<<<<<<< HEAD
     left: 45vw;
     top: 1vw;
     left: 45vw;
     top: 1vw;
 
+=======
+}
+
+#contact_image_insta {
+    position: relative;
+    background-size: 100%;
+}
+
+#contact_social {
+    display: flex;
+    justify-content: center;
+}
+
+
+#image_facebook {
+    position: relative;
+    background-size: 100%;
+    left: 45vw;
+    top: 1vw;
+>>>>>>> origin/master
 }
 
 #image_insta {
@@ -486,6 +507,7 @@ header nav a:link {
     background-size: 100%;
     left: 50vw;
     top: -3.8vw;
+<<<<<<< HEAD
 }
 
 
@@ -505,12 +527,13 @@ top: -3.8vw;
 #social {
     display: flex;
     justify-content: center;
+=======
+>>>>>>> origin/master
 }
 
 .bottom_footer p {
     text-align: center;
 }
-
 
 .image_hidden {
     visibility: hidden;
